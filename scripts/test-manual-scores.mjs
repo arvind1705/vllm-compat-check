@@ -1,0 +1,5 @@
+import assert from 'node:assert/strict';import {scoreKey,manualEnvelope,validateManualScores} from '../manual-scores.mjs';
+const model={provider:'Google',title:'Gemma 4 31B IT',parameters:'31B',checkpoint:'google/gemma'};
+assert.equal(scoreKey(model),scoreKey({...model,checkpoint:'RedHatAI/gemma-fp8'}));assert.notEqual(scoreKey(model),scoreKey({...model,parameters:'12B'}));
+const scores={[scoreKey(model)]:{score:0,note:'AA reasoning',updated:'2026-10-23T12:00:00Z'}};const result=validateManualScores(JSON.parse(JSON.stringify(manualEnvelope(scores))));assert.equal(result[scoreKey(model)].score,0);
+assert.throws(()=>validateManualScores({schemaVersion:1,scores:{a:{score:101,updated:'2026-10-23',note:''}}}));assert.throws(()=>validateManualScores({schemaVersion:1,scores:{a:{score:'15',updated:'2026-10-23',note:''}}}));assert.throws(()=>validateManualScores({schemaVersion:2,scores:{}}));assert.throws(()=>validateManualScores({schemaVersion:1,scores:{a:{score:15,updated:'bad',note:''}}}));console.log('Manual score grouping, zero score, roundtrip and invalid backup checks passed');

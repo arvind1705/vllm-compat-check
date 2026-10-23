@@ -1,0 +1,74 @@
+import {precisionEligible} from './precision-policy.mjs';
+import {scoreKey,manualStorageKey,validateManualScores,manualEnvelope} from './manual-scores.mjs';
+import {modelScore} from './scores.mjs';
+import {groupModels} from './group-models.mjs';
+import {screenFit} from './fit-screen.mjs';
+import {hardware} from './hardware.mjs';
+import {under50,totalBillions,isTextGeneration} from './catalog-policy.mjs';
+const root=document.getElementById('simpleApp');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+try{
+ const [catalog,aa]=await Promise.all(['data/catalog.json','data/aa-scores.json'].map(p=>fetch(p).then(r=>{if(!r.ok)throw Error();return r.json()})));
+ let manual=Object.create(null),storageWarning='';
+ try{const saved=localStorage.getItem(manualStorageKey);if(saved)manual=validateManualScores(JSON.parse(saved));}catch{storageWarning='Saved scores could not be loaded. Import a backup or save again.'}
+ root.innerHTML=`<div class="simple-heading"><div class="eyebrow">ONE INSTANCE. ONE VLLM SERVER.</div><h1>What can I run?</h1><p>Non-Chinese text-generation models under 50B · BF16, FP8 and Blackwell NVFP4.</p></div><div class="gpu-options" role="group" aria-label="Choose GPU">${Object.entries(hardware).map(([id,h],i)=>`<button class="gpu-choice ${i===0?'active':''}" data-gpu="${id}" aria-pressed="${i===0}"><small>${id}</small><strong>${h.gpu.replace('NVIDIA ','').replace('RTX PRO 6000 Blackwell','Blackwell')}</strong><span>${h.gpuCount>1?'8 × 16 GB VRAM':h.marketedGB+' GB VRAM'} · $${h.monthlyUSD.toLocaleString()}/mo</span></button>`).join('')}</div><div class="simple-toolbar"><span>Recipe memory fit · context and concurrency not evaluated</span><div class="sort-controls"><input id="simpleSearch" aria-label="Search models" placeholder="Search models…"><select id="simpleSort" aria-label="Sort models by"><option value="size">Model size</option><option value="intelligence">AA Intelligence Index</option><option value="provider">Provider</option><option value="name">Model name</option><option value="memory">Memory requirement</option><option value="headroom">GPU headroom</option></select><button id="simpleDirection" aria-label="Toggle sort direction" title="Toggle sort direction">Descending ↓</button></div></div><div id="hardwareWarning"></div><p id="simpleSummary"></p><div class="simple-table cost-table-wrap"><table><thead><tr><th>Model / checkpoint</th><th>Precision</th><th>Recipe memory</th><th>GPU headroom</th><th><a href="https://artificialanalysis.ai/" target="_blank" rel="noreferrer">AA Intelligence Index ↗</a></th></tr></thead><tbody id="simpleRows"></tbody></table></div><div id="multiGpuCandidates"></div><p class="simple-footnote">Default 4 GiB extra GPU cushion beyond the recipe minimum, identical on all GPUs. This is an editable planning assumption, not a published vLLM runtime requirement. One row per model and size; fitting checkpoints are grouped. Memory and headroom use the lowest-memory option. Context and concurrency are not evaluated.</p><p class="simple-footnote">Scores: <a href="https://artificialanalysis.ai/" target="_blank" rel="noreferrer">Artificial Analysis</a>. ${Object.keys(aa.scores).length?esc(aa.captureDate?'Snapshot: '+aa.captureDate+'. * = marked estimated by AA. Base-model reference; quantized quality may differ.':aa.status):'Not connected — an authorized API response is needed to populate scores.'}</p><details class="simple-pending score-backup"><summary>Manual scores · backup & restore</summary><p>Click Edit beside any score. Manual values apply to this model and size across GPU selections and take priority over the snapshot. Stored in this browser at this website address; clearing browser data removes them. Export a backup to keep or move them.</p><div class="plan-actions"><button id="exportManualScores">Export manual scores</button><label class="import-score-label">Import / merge backup<input id="importManualScores" type="file" accept="application/json,.json"></label></div></details><p id="manualScoreMessage" role="status" class="simple-footnote">${esc(storageWarning)}</p><details class="simple-pending"><summary>Memory assumptions & sources</summary><label>Extra GPU cushion · GiB<input id="simpleReserve" type="number" min="0" max="32" step="0.5" value="4"></label><p>Only explicitly text-capable generation checkpoints below 50B total parameters with BF16, FP8 or eligible NVFP4 recipe variants and a known positive minimum-memory requirement. Speech, transcription, embedding, reranking and ambiguous multimodal-only recipes are excluded, along with unknown lineage, missing memory data and other precisions. Exact FP8 / NVFP4 kernel support still needs validation on the selected GPU. NVFP4 is currently enabled only for Blackwell in this app; older-GPU emulation is not qualified. T4 is excluded from NVFP4. GB values are converted to GiB before comparison. Recipe context is a model limit, not a measured serving capacity. vLLM profiles memory for each model/configuration; it does not publish a universal fixed CUDA/runtime requirement. The recipe minimum already includes a coarse overhead allowance, so the extra cushion is not counted as a second measured runtime cost. CUDA graphs, activations and KV/state cache vary by workload. Host RAM and startup peaks are not established by these recipe minimums; check process RAM and vLLM startup logs before deployment.</p><p>Full upstream data and excluded records are available under Details & advanced settings.</p></details>`;
+ let gpu='g6.2xlarge',ascending=false;
+ const $=id=>document.getElementById(id);
+ const effectiveScore=r=>manual[scoreKey(r)]?{indices:{intelligence:manual[scoreKey(r)].score},scope:'manual',...manual[scoreKey(r)]}:modelScore(r,aa.scores);
+ function persist(next){
+  try{localStorage.setItem(manualStorageKey,JSON.stringify(manualEnvelope(next)));manual=next;return true}
+  catch{$('manualScoreMessage').textContent='Could not save: browser storage is unavailable or full. Your existing scores were not changed.';return false}
+ }
+ function scoreCell(r){
+  const key=scoreKey(r),custom=manual[key],score=effectiveScore(r);
+  const display=custom?`<strong>${custom.score.toFixed(1)}</strong><small title="${esc(custom.note)}">Manual · ${esc(custom.updated.slice(0,10))}</small>`:score?`<a href="${esc(score.url||aa.source)}" target="_blank" rel="noreferrer" title="${esc(score.name)} · ${esc(aa.indexVersion||'')} · ${esc(aa.captureDate||aa.updated)}"><strong>${Number(score.indices.intelligence).toFixed(1)}${score.estimated?'*':''}</strong></a><small>${score.scope==='base'?'Base-model reference':'Matched checkpoint'}</small>`:'—<small>No snapshot match</small>';
+  return `${display}<details class="score-editor"><summary>Edit</summary><form data-score-key="${esc(key)}"><label>AA Intelligence Index (0–100)<input name="score" aria-label="AA score for ${esc(r.title)}" type="number" min="0" max="100" step="0.1" required value="${custom?custom.score:score?.indices.intelligence??''}"></label><label>Reference / evaluation mode (optional)<input name="note" maxlength="1000" value="${esc(custom?.note||'')}" placeholder="e.g. AA v4.3.2, reasoning mode"></label><button type="submit">Save</button>${custom?`<button type="button" data-reset-score="${esc(key)}">Use snapshot</button>`:''}</form></details>`;
+ }
+ function render(){
+  const hw=hardware[gpu],q=$('simpleSearch').value.toLowerCase(),reserve=Number($('simpleReserve').value),budget=screenFit({},hw,reserve).budget;
+  if(!$('simpleReserve').checkValidity()||$('simpleReserve').value===''){ $('simpleSummary').textContent='Enter a valid GPU cushion.'; $('simpleRows').innerHTML=''; return; }
+  const multi=hw.gpuCount>1;
+  $('hardwareWarning').innerHTML=multi?'<div class="notice"><div><b>8 separate T4 GPUs, not one 128 GB GPU.</b><p>T4 does not natively execute BF16 or FP8, and is not eligible for NVFP4. BF16 checkpoints require FP16 conversion; some FP8 checkpoints may use weight-only Marlin kernels. One server spanning 8 GPUs requires validated tensor/pipeline parallelism. No checkpoint is marked runnable from aggregate memory alone.</p></div></div>':'';
+  $('multiGpuCandidates').innerHTML='';
+  const seen=new Set();
+  const eligible=catalog.variants.filter(r=>r.policy==='included'&&under50(r)&&precisionEligible(r.precision,hw)&&typeof r.minimumGB==='number'&&r.minimumGB>0&&screenFit(r,hw,reserve).fits&&isTextGeneration(r)&&[r.checkpoint,r.title,r.provider].join(' ').toLowerCase().includes(q)).filter(r=>{const k=r.checkpoint.toLowerCase()+'|'+r.precision;if(seen.has(k))return false;seen.add(k);return true}).sort((a,b)=>(totalBillions(b.parameters)||0)-(totalBillions(a.parameters)||0)||a.checkpoint.localeCompare(b.checkpoint));
+  const fits=groupModels(eligible);
+  const sort=$('simpleSort').value;
+  fits.sort((a,b)=>{
+   if(sort==='intelligence'){const av=effectiveScore(a)?.indices.intelligence,bv=effectiveScore(b)?.indices.intelligence;if(av==null&&bv!=null)return 1;if(bv==null&&av!=null)return -1;if(av!=null&&bv!=null&&av!==bv)return ascending?av-bv:bv-av;}
+   let delta=sort==='provider'?a.provider.localeCompare(b.provider):sort==='name'?(a.title||a.checkpoint).localeCompare(b.title||b.checkpoint):sort==='memory'?a.minimumGB-b.minimumGB:sort==='headroom'?b.minimumGB-a.minimumGB:(totalBillions(a.parameters)||0)-(totalBillions(b.parameters)||0);
+   if(!delta)delta=(a.title||a.checkpoint).localeCompare(b.title||b.checkpoint);
+   return ascending?delta:-delta;
+  });
+  if(multi){
+   const aggregateBudget=Math.max(0,hw.perGpuGiB-reserve)*hw.gpuCount;
+   const candidates=groupModels(catalog.variants.filter(r=>r.policy==='included'&&under50(r)&&isTextGeneration(r)&&precisionEligible(r.precision,hw)&&r.minimumGB>0&&r.minimumGB*1e9/2**30<=aggregateBudget&&[r.checkpoint,r.title,r.provider].join(' ').toLowerCase().includes(q)));
+   $('multiGpuCandidates').innerHTML=`<details class="simple-pending"><summary>${candidates.length} models pass an aggregate-memory screen only · validation required</summary><p>${hw.gpuCount} × ${hw.perGpuGiB} GiB, reserving ${reserve} GiB per GPU: ${aggregateBudget.toFixed(1)} GiB total planning budget. This is not a shared allocation pool. Per-rank weights, replicated tensors, cache, communication overhead, precision support and divisibility must all be checked.</p>${candidates.map(r=>`<p><a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)} ↗</a><small>${esc(r.precisions.join(' / '))} · ${(r.minimumGB*1e9/2**30).toFixed(1)} GiB recipe minimum · TP / precision unverified</small></p>`).join('')}</details>`;
+  }
+  $('simpleSummary').textContent=multi?'No validated BF16 / FP8 execution configurations for the 8 × T4 preset.':`${fits.length} model candidates within the ${budget.toFixed(1)} GiB model/runtime budget (${reserve.toFixed(1)} GiB GPU reserve) on ${hw.gpu.replace('NVIDIA ','')}`;
+  $('simpleRows').innerHTML=fits.map(r=>`<tr><td><a href="${esc(r.url)}" target="_blank" rel="noreferrer"><strong>${esc(r.title||r.checkpoint)}</strong> ↗</a><small>${esc(r.provider)} · ${esc(r.parameters)} total parameters</small>${r.variants.length>1?`<details><summary>${r.variants.length} fitting checkpoints</summary>${r.variants.map(v=>`<p><a href="${esc(v.url)}" target="_blank" rel="noreferrer">${esc(v.checkpoint)} ↗</a><small>${esc(v.precision.toUpperCase())} · ${(v.minimumGB*1e9/2**30).toFixed(1)} GiB recipe minimum</small></p>`).join('')}</details>`:''}</td><td><span class="badge">${esc(r.precisions.join(' / '))}</span></td><td>${(r.minimumGB*1e9/2**30).toFixed(1)} GiB<small>Lowest-memory fitting checkpoint</small></td><td>${screenFit(r,hw,reserve).remaining.toFixed(1)} GiB<small>Outside recipe minimum</small></td><td>${scoreCell(r)}</td></tr>`).join('')||'<tr><td colspan="5">No validated eligible-precision candidates for this hardware and memory budget.</td></tr>';
+ }
+ root.addEventListener('submit',event=>{
+  const form=event.target.closest('form[data-score-key]');if(!form)return;event.preventDefault();
+  if(!form.reportValidity())return;
+  const value=Number(form.elements.score.value),key=form.dataset.scoreKey;
+  if(!Number.isFinite(value)||value<0||value>100)return;
+  const next={...manual,[key]:{score:value,note:form.elements.note.value.trim(),updated:new Date().toISOString()}};
+  if(persist(next)){render();$('manualScoreMessage').textContent='Manual score saved in this browser.'}
+ });
+ root.addEventListener('click',event=>{
+  const button=event.target.closest('[data-reset-score]');if(!button)return;
+  const next={...manual};delete next[button.dataset.resetScore];
+  if(persist(next)){render();$('manualScoreMessage').textContent='Manual override removed. Showing the snapshot if available.'}
+ });
+ $('exportManualScores').onclick=()=>{const a=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(manualEnvelope(manual),null,2)],{type:'application/json'}));a.href=url;a.download='fitcheck-manual-aa-scores.json';a.click();URL.revokeObjectURL(url);$('manualScoreMessage').textContent='Manual score backup exported.'};
+ $('importManualScores').onchange=async event=>{
+  const file=event.target.files[0];if(!file)return;
+  try{if(file.size>1024*1024)throw Error('Backup exceeds 1 MB.');
+   const incoming=validateManualScores(JSON.parse(await file.text()));
+   if(persist({...manual,...incoming})){render();$('manualScoreMessage').textContent=`Imported ${Object.keys(incoming).length} manual scores. Existing scores were kept unless replaced by the backup.`}
+  }catch(error){$('manualScoreMessage').textContent='Import failed: '+error.message}finally{event.target.value=''}
+ };
+ root.querySelectorAll('[data-gpu]').forEach(b=>b.onclick=()=>{gpu=b.dataset.gpu;root.querySelectorAll('[data-gpu]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});render()});
+ $('simpleSearch').addEventListener('input',render);$('simpleSort').addEventListener('change',()=>{ascending=['provider','name'].includes($('simpleSort').value);$('simpleDirection').textContent=ascending?'Ascending ↑':'Descending ↓';render()});$('simpleDirection').onclick=()=>{ascending=!ascending;$('simpleDirection').textContent=ascending?'Ascending ↑':'Descending ↓';render()};$('simpleReserve').addEventListener('input',render);render();
+}catch(e){root.textContent='Could not load model data. Please reload.';console.error(e)}

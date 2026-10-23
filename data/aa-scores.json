@@ -1,0 +1,636 @@
+{
+  "source": "https://artificialanalysis.ai/leaderboards/models",
+  "updated": "2026-10-23T14:02:28.417537+00:00",
+  "captureDate": "2026-10-23",
+  "captureMethod": "Public server-rendered leaderboard table, one-time snapshot",
+  "indexVersion": "Artificial Analysis Intelligence Index v4.3.2",
+  "scores": {
+    "google/diffusiongemma-26b-a4b-it": {
+      "aaId": null,
+      "name": "DiffusionGemma 26B A4B",
+      "slug": "diffusiongemma-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 10.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/diffusiongemma-26b-a4b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "DiffusionGemma 26B A4B",
+      "slug": "diffusiongemma-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 10.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/diffusiongemma-26b-a4b-it-nvfp4": {
+      "aaId": null,
+      "name": "DiffusionGemma 26B A4B",
+      "slug": "diffusiongemma-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 10.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "nvidia/diffusiongemma-26b-a4b-it-nvfp4": {
+      "aaId": null,
+      "name": "DiffusionGemma 26B A4B",
+      "slug": "diffusiongemma-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 10.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-12b-it": {
+      "aaId": null,
+      "name": "Gemma 4 12B",
+      "slug": "gemma-4-12b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 14.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-12b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-12b-it-nvfp4": {
+      "aaId": null,
+      "name": "Gemma 4 12B",
+      "slug": "gemma-4-12b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 14.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-12b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-12b-it-qat-w4a16-ct": {
+      "aaId": null,
+      "name": "Gemma 4 12B",
+      "slug": "gemma-4-12b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 14.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-12b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-12b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "Gemma 4 12B",
+      "slug": "gemma-4-12b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 14.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-12b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-26b-a4b-it": {
+      "aaId": null,
+      "name": "Gemma 4 26B A4B",
+      "slug": "gemma-4-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-26b-a4b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "Gemma 4 26B A4B",
+      "slug": "gemma-4-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-26b-a4b-it-nvfp4": {
+      "aaId": null,
+      "name": "Gemma 4 26B A4B",
+      "slug": "gemma-4-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-31b-it": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-31b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "nvidia/gemma-4-31b-it-nvfp4": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-31b-it-nvfp4": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-31b-it-qat-w4a16-ct": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-31b-it-fp8-block": {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e2b-it": {
+      "aaId": null,
+      "name": "Gemma 4 E2B",
+      "slug": "gemma-4-e2b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 8.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e2b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-e2b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "Gemma 4 E2B",
+      "slug": "gemma-4-e2b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 8.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e2b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e2b-it-qat-w4a16-ct": {
+      "aaId": null,
+      "name": "Gemma 4 E2B",
+      "slug": "gemma-4-e2b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 8.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e2b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e2b-it-qat-mobile-ct": {
+      "aaId": null,
+      "name": "Gemma 4 E2B",
+      "slug": "gemma-4-e2b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 8.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e2b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e4b-it": {
+      "aaId": null,
+      "name": "Gemma 4 E4B",
+      "slug": "gemma-4-e4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/gemma-4-e4b-it-fp8-dynamic": {
+      "aaId": null,
+      "name": "Gemma 4 E4B",
+      "slug": "gemma-4-e4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e4b-it-qat-w4a16-ct": {
+      "aaId": null,
+      "name": "Gemma 4 E4B",
+      "slug": "gemma-4-e4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "google/gemma-4-e4b-it-qat-mobile-ct": {
+      "aaId": null,
+      "name": "Gemma 4 E4B",
+      "slug": "gemma-4-e4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "liquidai/lfm2.5-1.2b-instruct": {
+      "aaId": null,
+      "name": "LFM2.5-1.2B-Instruct",
+      "slug": "lfm2-5-1-2b-instruct",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-1-2b-instruct",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "liquidai/lfm2.5-1.2b-thinking": {
+      "aaId": null,
+      "name": "LFM2.5-1.2B-Thinking",
+      "slug": "lfm2-5-1-2b-thinking",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-1-2b-thinking",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "liquidai/lfm2.5-8b-a1b": {
+      "aaId": null,
+      "name": "LFM2.5-8B-A1B",
+      "slug": "lfm2-5-8b-a1b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 7.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-8b-a1b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "liquidai/lfm2.5-vl-1.6b": {
+      "aaId": null,
+      "name": "LFM2.5-VL-1.6B",
+      "slug": "lfm2-5-vl-1-6b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-vl-1-6b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "microsoft/phi-4-multimodal-instruct": {
+      "aaId": null,
+      "name": "Phi-4 Multimodal",
+      "slug": "phi-4-multimodal",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/phi-4-multimodal",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "mistralai/ministral-3-14b-instruct-2512": {
+      "aaId": null,
+      "name": "Ministral 3 14B",
+      "slug": "ministral-3-14b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-14b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "mistralai/ministral-3-8b-instruct-2512": {
+      "aaId": null,
+      "name": "Ministral 3 8B",
+      "slug": "ministral-3-8b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-8b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "mistralai/ministral-3-3b-instruct-2512": {
+      "aaId": null,
+      "name": "Ministral 3 3B",
+      "slug": "ministral-3-3b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-3b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "mistralai/ministral-3-14b-instruct-2512-fp8": {
+      "aaId": null,
+      "name": "Ministral 3 14B",
+      "slug": "ministral-3-14b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-14b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/ministral-3-14b-instruct-2512-fp8-dynamic": {
+      "aaId": null,
+      "name": "Ministral 3 14B",
+      "slug": "ministral-3-14b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-14b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/ministral-3-14b-instruct-2512-nvfp4": {
+      "aaId": null,
+      "name": "Ministral 3 14B",
+      "slug": "ministral-3-14b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-14b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "openai/gpt-oss-20b": {
+      "aaId": null,
+      "name": "gpt-oss-20b (high)",
+      "slug": "gpt-oss-20b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gpt-oss-20b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    }
+  },
+  "status": "One-time public snapshot: 15 AA model identities mapped to 37 checkpoint records.",
+  "references": [
+    {
+      "aaId": null,
+      "name": "DiffusionGemma 26B A4B",
+      "slug": "diffusiongemma-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 10.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/diffusiongemma-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Gemma 4 12B",
+      "slug": "gemma-4-12b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 14.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-12b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Gemma 4 26B A4B",
+      "slug": "gemma-4-26b-a4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-26b-a4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Gemma 4 31B",
+      "slug": "gemma-4-31b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 15.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-31b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Gemma 4 E2B",
+      "slug": "gemma-4-e2b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 8.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e2b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Gemma 4 E4B",
+      "slug": "gemma-4-e4b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gemma-4-e4b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "LFM2.5-1.2B-Instruct",
+      "slug": "lfm2-5-1-2b-instruct",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-1-2b-instruct",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "LFM2.5-1.2B-Thinking",
+      "slug": "lfm2-5-1-2b-thinking",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-1-2b-thinking",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "LFM2.5-8B-A1B",
+      "slug": "lfm2-5-8b-a1b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 7.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-8b-a1b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "LFM2.5-VL-1.6B",
+      "slug": "lfm2-5-vl-1-6b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/lfm2-5-vl-1-6b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Phi-4 Multimodal",
+      "slug": "phi-4-multimodal",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/phi-4-multimodal",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Ministral 3 14B",
+      "slug": "ministral-3-14b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-14b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Ministral 3 8B",
+      "slug": "ministral-3-8b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-8b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Ministral 3 3B",
+      "slug": "ministral-3-3b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 5.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/ministral-3-3b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "gpt-oss-20b (high)",
+      "slug": "gpt-oss-20b",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/gpt-oss-20b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {estimate} from '../engine.mjs';
+const m={params:8,layers:32,kvHeads:8,headDim:128,maxContext:131072};
+const c={precision:2,context:4096,seq:1,overhead:2,vram:22.35,util:.9,base:12,os:1.5,loading:.25,ram:16};
+const e=estimate(m,c);
+assert.equal(e.kv,.5);
+assert.equal(e.status,'risk');
+assert.equal(estimate(m,{...c,ram:32}).status,'candidate');
+assert.equal(estimate(m,{...c,seq:16}).status,'no');
+assert.equal(estimate(m,{...c,context:262144}).status,'no');
+assert.equal(estimate(m,{...c,precision:.6}).status,'candidate');
+assert.equal(estimate(m,{...c,seq:2}).kv,2*e.kv);
+console.log('6 memory and boundary checks passed');

@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {planDeployment} from '../planner.mjs';
+const model={layers:32,kvHeads:8,headDim:128,maxContext:32768};
+const instance={vram:24,ram:32,os:2,reserve:1,parallelLoad:false};
+const slot={model,weights:6,kvOverride:null,measuredTotal:null,kvBytes:2,context:4096,seq:2,util:.5,overhead:2,hostRuntime:3,staging:4};
+let p=planDeployment(instance,[slot,{...slot,util:.4}]);
+assert.equal(p.ok,true);assert.equal(p.allocation,21.6);assert.equal(p.host,8);assert.equal(p.peak,12);assert.equal(p.deployments[0].kv,1);
+assert.equal(planDeployment({...instance,parallelLoad:true},[slot,slot]).peak,16);
+assert.equal(planDeployment(instance,[slot,slot]).ok,false);
+assert.equal(planDeployment(instance,[{...slot,measuredTotal:5}]).deployments[0].required,5);
+assert.equal(planDeployment(instance,[{...slot,kvOverride:3}]).deployments[0].required,11);
+assert.equal(planDeployment(instance,[{...slot,context:65536}]).ok,false);
+assert.equal(planDeployment({...instance,ram:5},[slot]).ok,false);
+assert.equal(planDeployment(instance,[{...slot,weights:20}]).ok,false);
+console.log('12 shared-GPU, host peak, override and context assertions passed');

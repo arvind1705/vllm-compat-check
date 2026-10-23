@@ -1,0 +1,3745 @@
+[
+  {
+    "hf_id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+    "title": "Seed-OSS-36B",
+    "provider": "Seed (ByteDance)",
+    "url": "/ByteDance-Seed/Seed-OSS-36B-Instruct",
+    "json": "/ByteDance-Seed/Seed-OSS-36B-Instruct.json"
+  },
+  {
+    "hf_id": "Google/diffusiongemma-26B-A4B-it",
+    "title": "DiffusionGemma 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/diffusiongemma-26B-A4B-it",
+    "json": "/Google/diffusiongemma-26B-A4B-it.json"
+  },
+  {
+    "hf_id": "Google/gemma-4-12B-it",
+    "title": "Gemma 4 12B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-12B-it",
+    "json": "/Google/gemma-4-12B-it.json"
+  },
+  {
+    "hf_id": "Google/gemma-4-26B-A4B-it",
+    "title": "Gemma 4 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-26B-A4B-it",
+    "json": "/Google/gemma-4-26B-A4B-it.json"
+  },
+  {
+    "hf_id": "Google/gemma-4-31B-it",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/Google/gemma-4-31B-it.json"
+  },
+  {
+    "hf_id": "Google/gemma-4-E2B-it",
+    "title": "Gemma 4 E2B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E2B-it",
+    "json": "/Google/gemma-4-E2B-it.json"
+  },
+  {
+    "hf_id": "Google/gemma-4-E4B-it",
+    "title": "Gemma 4 E4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E4B-it",
+    "json": "/Google/gemma-4-E4B-it.json"
+  },
+  {
+    "hf_id": "Google/translategemma-27b-it",
+    "title": "TranslateGemma 27B IT",
+    "provider": "Google",
+    "url": "/Google/translategemma-27b-it",
+    "json": "/Google/translategemma-27b-it.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-0.9B",
+    "title": "Jais-3-0.9B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-0.9B",
+    "json": "/IFM/Jais-3-0.9B.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-3.7B",
+    "title": "Jais-3-3.7B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-3.7B",
+    "json": "/IFM/Jais-3-3.7B.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-32B",
+    "title": "Jais-3-32B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-32B",
+    "json": "/IFM/Jais-3-32B.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-375B-A23B",
+    "title": "Jais-3-375B-A23B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-375B-A23B",
+    "json": "/IFM/Jais-3-375B-A23B.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-7B",
+    "title": "Jais-3-7B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-7B",
+    "json": "/IFM/Jais-3-7B.json"
+  },
+  {
+    "hf_id": "IFM/Jais-3-MoVA-36B-A4B",
+    "title": "Jais-3-MoVA-36B-A4B",
+    "provider": "IFM",
+    "url": "/IFM/Jais-3-MoVA-36B-A4B",
+    "json": "/IFM/Jais-3-MoVA-36B-A4B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-0.9B",
+    "title": "K2-Horizon-0.9B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-0.9B",
+    "json": "/IFM/K2-Horizon-0.9B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-3.7B",
+    "title": "K2-Horizon-3.7B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-3.7B",
+    "json": "/IFM/K2-Horizon-3.7B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-32B",
+    "title": "K2-Horizon-32B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-32B",
+    "json": "/IFM/K2-Horizon-32B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-375B-A23B",
+    "title": "K2-Horizon-375B-A23B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-375B-A23B",
+    "json": "/IFM/K2-Horizon-375B-A23B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-7B",
+    "title": "K2-Horizon-7B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-7B",
+    "json": "/IFM/K2-Horizon-7B.json"
+  },
+  {
+    "hf_id": "IFM/K2-Horizon-MoVA-36B-A4B",
+    "title": "K2-Horizon-MoVA-36B-A4B",
+    "provider": "IFM",
+    "url": "/IFM/K2-Horizon-MoVA-36B-A4B",
+    "json": "/IFM/K2-Horizon-MoVA-36B-A4B.json"
+  },
+  {
+    "hf_id": "IndexTeam/IndexTTS-2.5",
+    "title": "IndexTTS-2.5",
+    "provider": "IndexTeam",
+    "url": "/IndexTeam/IndexTTS-2.5",
+    "json": "/IndexTeam/IndexTTS-2.5.json"
+  },
+  {
+    "hf_id": "JetBrains/Mellum2-12B-A2.5B-Instruct",
+    "title": "Mellum2-12B-A2.5B-Instruct",
+    "provider": "JetBrains",
+    "url": "/JetBrains/Mellum2-12B-A2.5B-Instruct",
+    "json": "/JetBrains/Mellum2-12B-A2.5B-Instruct.json"
+  },
+  {
+    "hf_id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
+    "title": "Mellum2-12B-A2.5B-Thinking",
+    "provider": "JetBrains",
+    "url": "/JetBrains/Mellum2-12B-A2.5B-Thinking",
+    "json": "/JetBrains/Mellum2-12B-A2.5B-Thinking.json"
+  },
+  {
+    "hf_id": "Lightricks/LTX-2.5-Diffusers",
+    "title": "LTX-2.5",
+    "provider": "Lightricks",
+    "url": "/Lightricks/LTX-2.5-Diffusers",
+    "json": "/Lightricks/LTX-2.5-Diffusers.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-1.2B-Base",
+    "title": "LFM2.5 1.2B Base",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-1.2B-Base",
+    "json": "/LiquidAI/LFM2.5-1.2B-Base.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-1.2B-Instruct",
+    "title": "LFM2.5 1.2B Instruct",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-1.2B-Instruct",
+    "json": "/LiquidAI/LFM2.5-1.2B-Instruct.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-1.2B-JP-202606",
+    "title": "LFM2.5 1.2B JP (202606)",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-1.2B-JP-202606",
+    "json": "/LiquidAI/LFM2.5-1.2B-JP-202606.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-1.2B-JP",
+    "title": "LFM2.5 1.2B JP",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-1.2B-JP",
+    "json": "/LiquidAI/LFM2.5-1.2B-JP.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-1.2B-Thinking",
+    "title": "LFM2.5 1.2B Thinking",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-1.2B-Thinking",
+    "json": "/LiquidAI/LFM2.5-1.2B-Thinking.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-230M",
+    "title": "LFM2.5 230M",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-230M",
+    "json": "/LiquidAI/LFM2.5-230M.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-350M",
+    "title": "LFM2.5 350M",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-350M",
+    "json": "/LiquidAI/LFM2.5-350M.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-8B-A1B",
+    "title": "LFM2.5 8B A1B",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-8B-A1B",
+    "json": "/LiquidAI/LFM2.5-8B-A1B.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-VL-1.6B",
+    "title": "LFM2.5 VL 1.6B",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-VL-1.6B",
+    "json": "/LiquidAI/LFM2.5-VL-1.6B.json"
+  },
+  {
+    "hf_id": "LiquidAI/LFM2.5-VL-450M",
+    "title": "LFM2.5 VL 450M",
+    "provider": "LiquidAI",
+    "url": "/LiquidAI/LFM2.5-VL-450M",
+    "json": "/LiquidAI/LFM2.5-VL-450M.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-H3",
+    "title": "MiniMax-H3",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-H3",
+    "json": "/MiniMaxAI/MiniMax-H3.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M2.1",
+    "title": "MiniMax-M2.1",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.1",
+    "json": "/MiniMaxAI/MiniMax-M2.1.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M2.5",
+    "title": "MiniMax-M2.5",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.5",
+    "json": "/MiniMaxAI/MiniMax-M2.5.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M2.7",
+    "title": "MiniMax-M2.7",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.7",
+    "json": "/MiniMaxAI/MiniMax-M2.7.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M2",
+    "title": "MiniMax-M2",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2",
+    "json": "/MiniMaxAI/MiniMax-M2.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M3.1-Flash",
+    "title": "MiniMax-M3.1-Flash",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3.1-Flash",
+    "json": "/MiniMaxAI/MiniMax-M3.1-Flash.json"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M3",
+    "title": "MiniMax-M3",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3",
+    "json": "/MiniMaxAI/MiniMax-M3.json"
+  },
+  {
+    "hf_id": "OpenGVLab/InternVL3_5-8B",
+    "title": "InternVL3.5",
+    "provider": "InternVL (OpenGVLab)",
+    "url": "/OpenGVLab/InternVL3_5-8B",
+    "json": "/OpenGVLab/InternVL3_5-8B.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-Image-Base",
+    "title": "MOSS-Image",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-Image-Base",
+    "json": "/OpenMOSS-Team/MOSS-Image-Base.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-SoundEffect",
+    "title": "MOSS-SoundEffect",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-SoundEffect",
+    "json": "/OpenMOSS-Team/MOSS-SoundEffect.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-TTS-Realtime",
+    "title": "MOSS-TTS-Realtime",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-TTS-Realtime",
+    "json": "/OpenMOSS-Team/MOSS-TTS-Realtime.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-TTS",
+    "title": "MOSS-TTS",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-TTS",
+    "json": "/OpenMOSS-Team/MOSS-TTS.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-TTSD-v1.0",
+    "title": "MOSS-TTSD-v1.0",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-TTSD-v1.0",
+    "json": "/OpenMOSS-Team/MOSS-TTSD-v1.0.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "title": "MOSS-Transcribe-Diarize",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "json": "/OpenMOSS-Team/MOSS-Transcribe-Diarize.json"
+  },
+  {
+    "hf_id": "OpenMOSS-Team/MOSS-VoiceGenerator",
+    "title": "MOSS-VoiceGenerator",
+    "provider": "OpenMOSS",
+    "url": "/OpenMOSS-Team/MOSS-VoiceGenerator",
+    "json": "/OpenMOSS-Team/MOSS-VoiceGenerator.json"
+  },
+  {
+    "hf_id": "PaddlePaddle/PaddleOCR-VL-1.5",
+    "title": "PaddleOCR-VL-1.5",
+    "provider": "PaddlePaddle",
+    "url": "/PaddlePaddle/PaddleOCR-VL-1.5",
+    "json": "/PaddlePaddle/PaddleOCR-VL-1.5.json"
+  },
+  {
+    "hf_id": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "title": "PaddleOCR-VL-1.6",
+    "provider": "PaddlePaddle",
+    "url": "/PaddlePaddle/PaddleOCR-VL-1.6",
+    "json": "/PaddlePaddle/PaddleOCR-VL-1.6.json"
+  },
+  {
+    "hf_id": "PaddlePaddle/PaddleOCR-VL",
+    "title": "PaddleOCR-VL",
+    "provider": "PaddlePaddle",
+    "url": "/PaddlePaddle/PaddleOCR-VL",
+    "json": "/PaddlePaddle/PaddleOCR-VL.json"
+  },
+  {
+    "hf_id": "Qwen/QwQ-32B",
+    "title": "QwQ-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/QwQ-32B",
+    "json": "/Qwen/QwQ-32B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen-Image-2.1",
+    "title": "Qwen-Image-2.1",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen-Image-2.1",
+    "json": "/Qwen/Qwen-Image-2.1.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen-Image",
+    "title": "Qwen-Image",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen-Image",
+    "json": "/Qwen/Qwen-Image.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen2.5-32B",
+    "title": "Qwen2.5-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-32B",
+    "json": "/Qwen/Qwen2.5-32B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "title": "Qwen2.5-VL-72B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-72B-Instruct",
+    "json": "/Qwen/Qwen2.5-VL-72B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "title": "Qwen2.5-VL-7B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-7B-Instruct",
+    "json": "/Qwen/Qwen2.5-VL-7B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-1.7B",
+    "title": "Qwen3-1.7B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-1.7B",
+    "json": "/Qwen/Qwen3-1.7B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-14B",
+    "title": "Qwen3-14B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-14B",
+    "json": "/Qwen/Qwen3-14B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "title": "Qwen3-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "json": "/Qwen/Qwen3-235B-A22B-Instruct-2507.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-30B-A3B",
+    "title": "Qwen3-30B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-30B-A3B",
+    "json": "/Qwen/Qwen3-30B-A3B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-32B",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/Qwen/Qwen3-32B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-4B",
+    "title": "Qwen3-4B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-4B",
+    "json": "/Qwen/Qwen3-4B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-8B",
+    "title": "Qwen3-8B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-8B",
+    "json": "/Qwen/Qwen3-8B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-ASR-1.7B",
+    "title": "Qwen3-ASR-1.7B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-ASR-1.7B",
+    "json": "/Qwen/Qwen3-ASR-1.7B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "title": "Qwen3-Coder-480B-A35B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "json": "/Qwen/Qwen3-Coder-480B-A35B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/Qwen/Qwen3-Next-80B-A3B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "title": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "json": "/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/Qwen/Qwen3-VL-235B-A22B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "title": "Qwen3-VL-30B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "json": "/Qwen/Qwen3-VL-30B-A3B-Instruct.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-0.8B",
+    "title": "Qwen3.5-0.8B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-0.8B",
+    "json": "/Qwen/Qwen3.5-0.8B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-122B-A10B",
+    "title": "Qwen3.5-122B-A10B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-122B-A10B",
+    "json": "/Qwen/Qwen3.5-122B-A10B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-27B",
+    "title": "Qwen3.5-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-27B",
+    "json": "/Qwen/Qwen3.5-27B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-2B",
+    "title": "Qwen3.5-2B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-2B",
+    "json": "/Qwen/Qwen3.5-2B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-35B-A3B",
+    "title": "Qwen3.5-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-35B-A3B",
+    "json": "/Qwen/Qwen3.5-35B-A3B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-397B-A17B",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/Qwen/Qwen3.5-397B-A17B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-4B",
+    "title": "Qwen3.5-4B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-4B",
+    "json": "/Qwen/Qwen3.5-4B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-9B",
+    "title": "Qwen3.5-9B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-9B",
+    "json": "/Qwen/Qwen3.5-9B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.6-27B",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/Qwen/Qwen3.6-27B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.6-35B-A3B",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/Qwen/Qwen3.6-35B-A3B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-2.4T-A95B",
+    "title": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-2.4T-A95B",
+    "json": "/Qwen/Qwen3.8-2.4T-A95B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-27B",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/Qwen/Qwen3.8-27B.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-Flash-Next",
+    "title": "Qwen3.8-Flash-Next",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-Flash-Next",
+    "json": "/Qwen/Qwen3.8-Flash-Next.json"
+  },
+  {
+    "hf_id": "Qwen/Qwen3Guard-Gen-8B",
+    "title": "Qwen3Guard-Gen-8B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3Guard-Gen-8B",
+    "json": "/Qwen/Qwen3Guard-Gen-8B.json"
+  },
+  {
+    "hf_id": "RecursiveSI/flint",
+    "title": "Flint",
+    "provider": "RecursiveSI",
+    "url": "/RecursiveSI/flint",
+    "json": "/RecursiveSI/flint.json"
+  },
+  {
+    "hf_id": "Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+    "title": "Wan2.2",
+    "provider": "Wan (Alibaba)",
+    "url": "/Wan-AI/Wan2.2-T2V-A14B-Diffusers",
+    "json": "/Wan-AI/Wan2.2-T2V-A14B-Diffusers.json"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2-Flash",
+    "title": "MiMo-V2-Flash",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2-Flash",
+    "json": "/XiaomiMiMo/MiMo-V2-Flash.json"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.5-Pro",
+    "title": "MiMo-V2.5-Pro",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.5-Pro",
+    "json": "/XiaomiMiMo/MiMo-V2.5-Pro.json"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.5",
+    "title": "MiMo-V2.5",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.5",
+    "json": "/XiaomiMiMo/MiMo-V2.5.json"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+    "title": "MiMo-V2.6-Flash-RL",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+    "json": "/XiaomiMiMo/MiMo-V2.6-Flash-RL.json"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "title": "MiMo-V2.6-Pro-RL",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "json": "/XiaomiMiMo/MiMo-V2.6-Pro-RL.json"
+  },
+  {
+    "hf_id": "arcee-ai/Trinity-Large-Thinking",
+    "title": "Trinity-Large-Thinking",
+    "provider": "Arcee AI",
+    "url": "/arcee-ai/Trinity-Large-Thinking",
+    "json": "/arcee-ai/Trinity-Large-Thinking.json"
+  },
+  {
+    "hf_id": "baidu/ERNIE-4.5-21B-A3B-PT",
+    "title": "ERNIE-4.5",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/ERNIE-4.5-21B-A3B-PT",
+    "json": "/baidu/ERNIE-4.5-21B-A3B-PT.json"
+  },
+  {
+    "hf_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
+    "title": "ERNIE-4.5-VL",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/ERNIE-4.5-VL-28B-A3B-PT",
+    "json": "/baidu/ERNIE-4.5-VL-28B-A3B-PT.json"
+  },
+  {
+    "hf_id": "baidu/Unlimited-OCR",
+    "title": "Unlimited-OCR",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/Unlimited-OCR",
+    "json": "/baidu/Unlimited-OCR.json"
+  },
+  {
+    "hf_id": "bharatgenai/Param2-17B-A2.4B-Thinking",
+    "title": "Param-2-17B-A2.4B-Thinking",
+    "provider": "BharatGen",
+    "url": "/bharatgenai/Param2-17B-A2.4B-Thinking",
+    "json": "/bharatgenai/Param2-17B-A2.4B-Thinking.json"
+  },
+  {
+    "hf_id": "black-forest-labs/flux-3-image-klein",
+    "title": "FLUX 3 Image Klein",
+    "provider": "Black Forest Labs",
+    "url": "/black-forest-labs/flux-3-image-klein",
+    "json": "/black-forest-labs/flux-3-image-klein.json"
+  },
+  {
+    "hf_id": "bosonai/higgs-audio-v3-tts-4b",
+    "title": "Higgs Audio V3 TTS",
+    "provider": "Boson AI",
+    "url": "/bosonai/higgs-audio-v3-tts-4b",
+    "json": "/bosonai/higgs-audio-v3-tts-4b.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-OCR-2",
+    "title": "DeepSeek-OCR-2",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-OCR-2",
+    "json": "/deepseek-ai/DeepSeek-OCR-2.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-OCR",
+    "title": "DeepSeek-OCR",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-OCR",
+    "json": "/deepseek-ai/DeepSeek-OCR.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-R1",
+    "title": "DeepSeek-R1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-R1",
+    "json": "/deepseek-ai/DeepSeek-R1.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V3.1",
+    "title": "DeepSeek-V3.1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.1",
+    "json": "/deepseek-ai/DeepSeek-V3.1.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V3.2-Exp",
+    "title": "DeepSeek-V3.2-Exp",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.2-Exp",
+    "json": "/deepseek-ai/DeepSeek-V3.2-Exp.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V3.2",
+    "title": "DeepSeek-V3.2",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.2",
+    "json": "/deepseek-ai/DeepSeek-V3.2.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V3",
+    "title": "DeepSeek-V3",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3",
+    "json": "/deepseek-ai/DeepSeek-V3.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "title": "DeepSeek-V4-Flash-Vision-Exp",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+    "json": "/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Flash",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/deepseek-ai/DeepSeek-V4-Flash.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Pro",
+    "title": "DeepSeek-V4-Pro",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Pro",
+    "json": "/deepseek-ai/DeepSeek-V4-Pro.json"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "title": "DeepSeek-V4.1-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4.1-Flash",
+    "json": "/deepseek-ai/DeepSeek-V4.1-Flash.json"
+  },
+  {
+    "hf_id": "dots-studio/dots3-note-prev",
+    "title": "dots3-note-prev",
+    "provider": "Dots",
+    "url": "/dots-studio/dots3-note-prev",
+    "json": "/dots-studio/dots3-note-prev.json"
+  },
+  {
+    "hf_id": "fishaudio/drama-3",
+    "title": "Fish Audio Drama 3",
+    "provider": "Fish Audio",
+    "url": "/fishaudio/drama-3",
+    "json": "/fishaudio/drama-3.json"
+  },
+  {
+    "hf_id": "fishaudio/s2-pro",
+    "title": "Fish Speech S2 Pro",
+    "provider": "Fish Audio",
+    "url": "/fishaudio/s2-pro",
+    "json": "/fishaudio/s2-pro.json"
+  },
+  {
+    "hf_id": "ibm-granite/granite-3.2-2b-instruct",
+    "title": "Granite-3.2-2B-Instruct",
+    "provider": "IBM Granite",
+    "url": "/ibm-granite/granite-3.2-2b-instruct",
+    "json": "/ibm-granite/granite-3.2-2b-instruct.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-2.6-1T",
+    "title": "Ling-2.6-1T",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-2.6-1T",
+    "json": "/inclusionAI/Ling-2.6-1T.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-2.6-flash",
+    "title": "Ling-2.6-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-2.6-flash",
+    "json": "/inclusionAI/Ling-2.6-flash.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-VL",
+    "title": "Ling-3.0-flash-VL",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash-VL",
+    "json": "/inclusionAI/Ling-3.0-flash-VL.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash",
+    "title": "Ling-3.0-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash",
+    "json": "/inclusionAI/Ling-3.0-flash.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-tiny",
+    "title": "Ling-3.0-tiny",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-tiny",
+    "json": "/inclusionAI/Ling-3.0-tiny.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.1-flash",
+    "title": "Ling-3.1-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.1-flash",
+    "json": "/inclusionAI/Ling-3.1-flash.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ming-omni-tts-0.5B",
+    "title": "Ming-omni-tts-0.5B",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ming-omni-tts-0.5B",
+    "json": "/inclusionAI/Ming-omni-tts-0.5B.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ring-1T-FP8",
+    "title": "Ring-1T-FP8",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ring-1T-FP8",
+    "json": "/inclusionAI/Ring-1T-FP8.json"
+  },
+  {
+    "hf_id": "inclusionAI/Ring-2.6-1T",
+    "title": "Ring-2.6-1T",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ring-2.6-1T",
+    "json": "/inclusionAI/Ring-2.6-1T.json"
+  },
+  {
+    "hf_id": "internlm/Intern-S1",
+    "title": "Intern-S1",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S1",
+    "json": "/internlm/Intern-S1.json"
+  },
+  {
+    "hf_id": "internlm/Intern-S2-397B",
+    "title": "Intern-S2-397B",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S2-397B",
+    "json": "/internlm/Intern-S2-397B.json"
+  },
+  {
+    "hf_id": "internlm/Intern-S2-Preview",
+    "title": "Intern-S2-Preview",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S2-Preview",
+    "json": "/internlm/Intern-S2-Preview.json"
+  },
+  {
+    "hf_id": "jinaai/jina-embeddings-v5-text-small",
+    "title": "Jina Embeddings v5 Text Small",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-embeddings-v5-text-small",
+    "json": "/jinaai/jina-embeddings-v5-text-small.json"
+  },
+  {
+    "hf_id": "jinaai/jina-reranker-m0",
+    "title": "Jina Reranker m0",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-reranker-m0",
+    "json": "/jinaai/jina-reranker-m0.json"
+  },
+  {
+    "hf_id": "meituan-longcat/LongCat-Image-Edit",
+    "title": "LongCat-Image-Edit",
+    "provider": "LongCat (Meituan)",
+    "url": "/meituan-longcat/LongCat-Image-Edit",
+    "json": "/meituan-longcat/LongCat-Image-Edit.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/meta-llama/Llama-3.1-8B-Instruct.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.1-8B",
+    "title": "Llama-3.1-8B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B",
+    "json": "/meta-llama/Llama-3.1-8B.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "title": "Llama-3.2-1B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-1B-Instruct",
+    "json": "/meta-llama/Llama-3.2-1B-Instruct.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.2-1B",
+    "title": "Llama-3.2-1B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-1B",
+    "json": "/meta-llama/Llama-3.2-1B.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "title": "Llama-3.2-3B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-3B-Instruct",
+    "json": "/meta-llama/Llama-3.2-3B-Instruct.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/meta-llama/Llama-3.3-70B-Instruct.json"
+  },
+  {
+    "hf_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/meta-llama/Llama-4-Scout-17B-16E-Instruct.json"
+  },
+  {
+    "hf_id": "meta-models/Muse-Glimmer-30B",
+    "title": "Muse Glimmer 30B",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Glimmer-30B",
+    "json": "/meta-models/Muse-Glimmer-30B.json"
+  },
+  {
+    "hf_id": "meta-models/Muse-Spark-Open-816B-A42B",
+    "title": "Muse Spark Open",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Spark-Open-816B-A42B",
+    "json": "/meta-models/Muse-Spark-Open-816B-A42B.json"
+  },
+  {
+    "hf_id": "microsoft/Phi-4-mini-instruct",
+    "title": "Phi-4",
+    "provider": "Microsoft",
+    "url": "/microsoft/Phi-4-mini-instruct",
+    "json": "/microsoft/Phi-4-mini-instruct.json"
+  },
+  {
+    "hf_id": "microsoft/Phi-4-multimodal-instruct",
+    "title": "Phi-4-multimodal-instruct",
+    "provider": "Microsoft",
+    "url": "/microsoft/Phi-4-multimodal-instruct",
+    "json": "/microsoft/Phi-4-multimodal-instruct.json"
+  },
+  {
+    "hf_id": "microsoft/Phi-4-reasoning",
+    "title": "Phi-4-reasoning",
+    "provider": "Microsoft",
+    "url": "/microsoft/Phi-4-reasoning",
+    "json": "/microsoft/Phi-4-reasoning.json"
+  },
+  {
+    "hf_id": "mindlab-research/Macaron-V1-Coding-Venti",
+    "title": "Macaron-V1-Coding-Venti",
+    "provider": "MindLab Research",
+    "url": "/mindlab-research/Macaron-V1-Coding-Venti",
+    "json": "/mindlab-research/Macaron-V1-Coding-Venti.json"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-14B-Instruct-2512",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/mistralai/Ministral-3-14B-Instruct-2512.json"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-8B-Reasoning-2512",
+    "title": "Ministral-3-Reasoning",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-8B-Reasoning-2512",
+    "json": "/mistralai/Ministral-3-8B-Reasoning-2512.json"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "title": "Mistral-Large-3-675B-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "json": "/mistralai/Mistral-Large-3-675B-Instruct-2512.json"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Medium-3.5-128B",
+    "title": "Mistral-Medium-3.5",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Medium-3.5-128B",
+    "json": "/mistralai/Mistral-Medium-3.5-128B.json"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Small-4-119B-2603",
+    "title": "Mistral-Small-4-119B",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Small-4-119B-2603",
+    "json": "/mistralai/Mistral-Small-4-119B-2603.json"
+  },
+  {
+    "hf_id": "mistralai/Voxtral-4B-TTS-2603",
+    "title": "Voxtral-4B-TTS-2603",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Voxtral-4B-TTS-2603",
+    "json": "/mistralai/Voxtral-4B-TTS-2603.json"
+  },
+  {
+    "hf_id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "title": "Voxtral-Mini-4B-Realtime-2602",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "json": "/mistralai/Voxtral-Mini-4B-Realtime-2602.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K2-Instruct",
+    "title": "Kimi-K2-Instruct",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2-Instruct",
+    "json": "/moonshotai/Kimi-K2-Instruct.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K2-Thinking",
+    "title": "Kimi-K2-Thinking",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2-Thinking",
+    "json": "/moonshotai/Kimi-K2-Thinking.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K2.5",
+    "title": "Kimi-K2.5",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.5",
+    "json": "/moonshotai/Kimi-K2.5.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K2.6",
+    "title": "Kimi-K2.6",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.6",
+    "json": "/moonshotai/Kimi-K2.6.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K2.7-Code",
+    "title": "Kimi-K2.7-Code",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.7-Code",
+    "json": "/moonshotai/Kimi-K2.7-Code.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-K3",
+    "title": "Kimi-K3",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K3",
+    "json": "/moonshotai/Kimi-K3.json"
+  },
+  {
+    "hf_id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+    "title": "Kimi-Linear-48B-A3B-Instruct",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-Linear-48B-A3B-Instruct",
+    "json": "/moonshotai/Kimi-Linear-48B-A3B-Instruct.json"
+  },
+  {
+    "hf_id": "nvidia/Cosmos3-Nano",
+    "title": "Cosmos3-Nano",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Cosmos3-Nano",
+    "json": "/nvidia/Cosmos3-Nano.json"
+  },
+  {
+    "hf_id": "nvidia/Cosmos3-Super-Image2Video",
+    "title": "Cosmos3-Super-Image2Video",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Cosmos3-Super-Image2Video",
+    "json": "/nvidia/Cosmos3-Super-Image2Video.json"
+  },
+  {
+    "hf_id": "nvidia/Cosmos3-Super-Text2Image",
+    "title": "Cosmos3-Super-Text2Image",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Cosmos3-Super-Text2Image",
+    "json": "/nvidia/Cosmos3-Super-Text2Image.json"
+  },
+  {
+    "hf_id": "nvidia/Cosmos3-Super",
+    "title": "Cosmos3-Super",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Cosmos3-Super",
+    "json": "/nvidia/Cosmos3-Super.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "title": "NVIDIA Nemotron-3-Nano-30B-A3B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "title": "NVIDIA Nemotron-3-Nano-4B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "title": "NVIDIA Nemotron-3-Super-120B-A12B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "title": "NVIDIA Nemotron-3-Ultra-550B-A55B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "title": "NVIDIA Nemotron 3.5 Lightning",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "title": "NVIDIA Nemotron 3.5 Super VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "json": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+    "title": "NVIDIA Nemotron-Nano-12B-v2-VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16.json"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2.json"
+  },
+  {
+    "hf_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "title": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "json": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16.json"
+  },
+  {
+    "hf_id": "openai/gpt-oss-120b",
+    "title": "GPT-OSS",
+    "provider": "OpenAI",
+    "url": "/openai/gpt-oss-120b",
+    "json": "/openai/gpt-oss-120b.json"
+  },
+  {
+    "hf_id": "openai/gpt-oss-20b",
+    "title": "GPT-OSS 20B",
+    "provider": "OpenAI",
+    "url": "/openai/gpt-oss-20b",
+    "json": "/openai/gpt-oss-20b.json"
+  },
+  {
+    "hf_id": "openai/whisper-large-v3",
+    "title": "Whisper Large v3",
+    "provider": "OpenAI",
+    "url": "/openai/whisper-large-v3",
+    "json": "/openai/whisper-large-v3.json"
+  },
+  {
+    "hf_id": "openbmb/MiniCPM-V-4.6",
+    "title": "MiniCPM-V 4.6",
+    "provider": "MiniCPM (OpenBMB)",
+    "url": "/openbmb/MiniCPM-V-4.6",
+    "json": "/openbmb/MiniCPM-V-4.6.json"
+  },
+  {
+    "hf_id": "openbmb/MiniCPM5-1B",
+    "title": "MiniCPM5-1B",
+    "provider": "MiniCPM (OpenBMB)",
+    "url": "/openbmb/MiniCPM5-1B",
+    "json": "/openbmb/MiniCPM5-1B.json"
+  },
+  {
+    "hf_id": "openbmb/MiniCPM5-2B",
+    "title": "MiniCPM5-2B",
+    "provider": "MiniCPM (OpenBMB)",
+    "url": "/openbmb/MiniCPM5-2B",
+    "json": "/openbmb/MiniCPM5-2B.json"
+  },
+  {
+    "hf_id": "openbmb/VoxCPM2",
+    "title": "VoxCPM2",
+    "provider": "MiniCPM (OpenBMB)",
+    "url": "/openbmb/VoxCPM2",
+    "json": "/openbmb/VoxCPM2.json"
+  },
+  {
+    "hf_id": "pfnet/plamo-3-nict-31b-base",
+    "title": "PLaMo 3 NICT 31B Base",
+    "provider": "Preferred Networks",
+    "url": "/pfnet/plamo-3-nict-31b-base",
+    "json": "/pfnet/plamo-3-nict-31b-base.json"
+  },
+  {
+    "hf_id": "poolside/Laguna-M.1",
+    "title": "Laguna M.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-M.1",
+    "json": "/poolside/Laguna-M.1.json"
+  },
+  {
+    "hf_id": "poolside/Laguna-S-2.1",
+    "title": "Laguna S-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-S-2.1",
+    "json": "/poolside/Laguna-S-2.1.json"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS-2.1",
+    "title": "Laguna XS-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS-2.1",
+    "json": "/poolside/Laguna-XS-2.1.json"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS.2",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/poolside/Laguna-XS.2.json"
+  },
+  {
+    "hf_id": "reflection/Beam-1.0-501B-A23B",
+    "title": "Beam-1.0-501B-A23B",
+    "provider": "Reflection",
+    "url": "/reflection/Beam-1.0-501B-A23B",
+    "json": "/reflection/Beam-1.0-501B-A23B.json"
+  },
+  {
+    "hf_id": "stabilityai/stable-audio-open-1.0",
+    "title": "Stable Audio Open",
+    "provider": "Stability AI",
+    "url": "/stabilityai/stable-audio-open-1.0",
+    "json": "/stabilityai/stable-audio-open-1.0.json"
+  },
+  {
+    "hf_id": "stabilityai/stable-diffusion-3.5-medium",
+    "title": "Stable Diffusion 3.5",
+    "provider": "Stability AI",
+    "url": "/stabilityai/stable-diffusion-3.5-medium",
+    "json": "/stabilityai/stable-diffusion-3.5-medium.json"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.5-Flash",
+    "title": "Step-3.5-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.5-Flash",
+    "json": "/stepfun-ai/Step-3.5-Flash.json"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.7-Flash",
+    "title": "Step-3.7-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.7-Flash",
+    "json": "/stepfun-ai/Step-3.7-Flash.json"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-5-Preview",
+    "title": "Step-5-Preview",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-5-Preview",
+    "json": "/stepfun-ai/Step-5-Preview.json"
+  },
+  {
+    "hf_id": "tencent/Hunyuan-A13B-Instruct",
+    "title": "Hunyuan-A13B-Instruct",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/Hunyuan-A13B-Instruct",
+    "json": "/tencent/Hunyuan-A13B-Instruct.json"
+  },
+  {
+    "hf_id": "tencent/HunyuanOCR",
+    "title": "HunyuanOCR",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/HunyuanOCR",
+    "json": "/tencent/HunyuanOCR.json"
+  },
+  {
+    "hf_id": "tencent/Hy3-preview",
+    "title": "Hy3-preview",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/Hy3-preview",
+    "json": "/tencent/Hy3-preview.json"
+  },
+  {
+    "hf_id": "tencent/Hy3",
+    "title": "Hy3",
+    "provider": "Hy (Tencent)",
+    "url": "/tencent/Hy3",
+    "json": "/tencent/Hy3.json"
+  },
+  {
+    "hf_id": "tencent/Hy4-preview",
+    "title": "Hy4-preview",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/Hy4-preview",
+    "json": "/tencent/Hy4-preview.json"
+  },
+  {
+    "hf_id": "thinkingmachines/Inkling-Small",
+    "title": "TML Inkling-Small",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling-Small",
+    "json": "/thinkingmachines/Inkling-Small.json"
+  },
+  {
+    "hf_id": "thinkingmachines/Inkling",
+    "title": "TML Inkling",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling",
+    "json": "/thinkingmachines/Inkling.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3-edge",
+    "title": "d3-edge",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3-edge",
+    "json": "/vllm-sr/d3-edge.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3-flash",
+    "title": "d3-flash",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3-flash",
+    "json": "/vllm-sr/d3-flash.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3-lite",
+    "title": "d3-lite",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3-lite",
+    "json": "/vllm-sr/d3-lite.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3-mini",
+    "title": "d3-mini",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3-mini",
+    "json": "/vllm-sr/d3-mini.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3-nano",
+    "title": "d3-nano",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3-nano",
+    "json": "/vllm-sr/d3-nano.json"
+  },
+  {
+    "hf_id": "vllm-sr/d3",
+    "title": "d3",
+    "provider": "vLLM Semantic Router",
+    "url": "/vllm-sr/d3",
+    "json": "/vllm-sr/d3.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.5",
+    "title": "GLM-4.5",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.5",
+    "json": "/zai-org/GLM-4.5.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.5V",
+    "title": "GLM-4.5V",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.5V",
+    "json": "/zai-org/GLM-4.5V.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.6",
+    "title": "GLM-4.6",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6",
+    "json": "/zai-org/GLM-4.6.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.6V",
+    "title": "GLM-4.6V",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6V",
+    "json": "/zai-org/GLM-4.6V.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.7",
+    "title": "GLM-4.7",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.7",
+    "json": "/zai-org/GLM-4.7.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.1",
+    "title": "GLM-5.1",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.1",
+    "json": "/zai-org/GLM-5.1.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.2",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/zai-org/GLM-5.2.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.3-Flash",
+    "title": "GLM-5.3-Flash",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3-Flash",
+    "json": "/zai-org/GLM-5.3-Flash.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.3",
+    "title": "GLM-5.3",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3",
+    "json": "/zai-org/GLM-5.3.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-5",
+    "title": "GLM-5",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5",
+    "json": "/zai-org/GLM-5.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-ASR-Nano-2512",
+    "title": "GLM-ASR-Nano-2512",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-ASR-Nano-2512",
+    "json": "/zai-org/GLM-ASR-Nano-2512.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-GA",
+    "title": "GLM-GA",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-GA",
+    "json": "/zai-org/GLM-GA.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-Image",
+    "title": "GLM-Image",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-Image",
+    "json": "/zai-org/GLM-Image.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-OCR",
+    "title": "GLM-OCR",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-OCR",
+    "json": "/zai-org/GLM-OCR.json"
+  },
+  {
+    "hf_id": "zai-org/GLM-TTS",
+    "title": "GLM-TTS",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-TTS",
+    "json": "/zai-org/GLM-TTS.json"
+  },
+  {
+    "hf_id": "zai-org/Glyph",
+    "title": "Glyph",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/Glyph",
+    "json": "/zai-org/Glyph.json"
+  },
+  {
+    "hf_id": "zai-org/glm-4-9b-hf",
+    "title": "GLM-4-9B",
+    "provider": "Z.ai",
+    "url": "/zai-org/glm-4-9b-hf",
+    "json": "/zai-org/glm-4-9b-hf.json"
+  },
+  {
+    "hf_id": "RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic",
+    "title": "DiffusionGemma 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/diffusiongemma-26B-A4B-it",
+    "json": "/RedHatAI/diffusiongemma-26B-A4B-it-FP8-dynamic.json",
+    "derived_from": "Google/diffusiongemma-26B-A4B-it"
+  },
+  {
+    "hf_id": "RedHatAI/diffusiongemma-26B-A4B-it-NVFP4",
+    "title": "DiffusionGemma 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/diffusiongemma-26B-A4B-it",
+    "json": "/RedHatAI/diffusiongemma-26B-A4B-it-NVFP4.json",
+    "derived_from": "Google/diffusiongemma-26B-A4B-it"
+  },
+  {
+    "hf_id": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+    "title": "DiffusionGemma 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/diffusiongemma-26B-A4B-it",
+    "json": "/nvidia/diffusiongemma-26B-A4B-it-NVFP4.json",
+    "derived_from": "Google/diffusiongemma-26B-A4B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-12B-it-NVFP4",
+    "title": "Gemma 4 12B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-12B-it",
+    "json": "/RedHatAI/gemma-4-12B-it-NVFP4.json",
+    "derived_from": "Google/gemma-4-12B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-12B-it-qat-w4a16-ct",
+    "title": "Gemma 4 12B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-12B-it",
+    "json": "/google/gemma-4-12B-it-qat-w4a16-ct.json",
+    "derived_from": "Google/gemma-4-12B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-12B-it-FP8-Dynamic",
+    "title": "Gemma 4 12B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-12B-it",
+    "json": "/RedHatAI/gemma-4-12B-it-FP8-Dynamic.json",
+    "derived_from": "Google/gemma-4-12B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic",
+    "title": "Gemma 4 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-26B-A4B-it",
+    "json": "/RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic.json",
+    "derived_from": "Google/gemma-4-26B-A4B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-26B-A4B-it-NVFP4",
+    "title": "Gemma 4 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-26B-A4B-it",
+    "json": "/RedHatAI/gemma-4-26B-A4B-it-NVFP4.json",
+    "derived_from": "Google/gemma-4-26B-A4B-it"
+  },
+  {
+    "hf_id": "nvidia/Gemma-4-26B-A4B-NVFP4",
+    "title": "Gemma 4 26B-A4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-26B-A4B-it",
+    "json": "/nvidia/Gemma-4-26B-A4B-NVFP4.json",
+    "derived_from": "Google/gemma-4-26B-A4B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-31B-it-FP8-dynamic",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/RedHatAI/gemma-4-31B-it-FP8-dynamic.json",
+    "derived_from": "Google/gemma-4-31B-it"
+  },
+  {
+    "hf_id": "nvidia/gemma-4-31B-it-NVFP4",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/nvidia/gemma-4-31B-it-NVFP4.json",
+    "derived_from": "Google/gemma-4-31B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-31B-it-NVFP4",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/RedHatAI/gemma-4-31B-it-NVFP4.json",
+    "derived_from": "Google/gemma-4-31B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-31B-it-qat-w4a16-ct",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/google/gemma-4-31B-it-qat-w4a16-ct.json",
+    "derived_from": "Google/gemma-4-31B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-31B-it-FP8-block",
+    "title": "Gemma 4 31B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-31B-it",
+    "json": "/RedHatAI/gemma-4-31B-it-FP8-block.json",
+    "derived_from": "Google/gemma-4-31B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-E2B-it-FP8-dynamic",
+    "title": "Gemma 4 E2B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E2B-it",
+    "json": "/RedHatAI/gemma-4-E2B-it-FP8-dynamic.json",
+    "derived_from": "Google/gemma-4-E2B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-E2B-it-qat-w4a16-ct",
+    "title": "Gemma 4 E2B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E2B-it",
+    "json": "/google/gemma-4-E2B-it-qat-w4a16-ct.json",
+    "derived_from": "Google/gemma-4-E2B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-E2B-it-qat-mobile-ct",
+    "title": "Gemma 4 E2B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E2B-it",
+    "json": "/google/gemma-4-E2B-it-qat-mobile-ct.json",
+    "derived_from": "Google/gemma-4-E2B-it"
+  },
+  {
+    "hf_id": "RedHatAI/gemma-4-E4B-it-FP8-dynamic",
+    "title": "Gemma 4 E4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E4B-it",
+    "json": "/RedHatAI/gemma-4-E4B-it-FP8-dynamic.json",
+    "derived_from": "Google/gemma-4-E4B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-E4B-it-qat-w4a16-ct",
+    "title": "Gemma 4 E4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E4B-it",
+    "json": "/google/gemma-4-E4B-it-qat-w4a16-ct.json",
+    "derived_from": "Google/gemma-4-E4B-it"
+  },
+  {
+    "hf_id": "google/gemma-4-E4B-it-qat-mobile-ct",
+    "title": "Gemma 4 E4B IT",
+    "provider": "Google",
+    "url": "/Google/gemma-4-E4B-it",
+    "json": "/google/gemma-4-E4B-it-qat-mobile-ct.json",
+    "derived_from": "Google/gemma-4-E4B-it"
+  },
+  {
+    "hf_id": "Infomaniak-AI/vllm-translategemma-27b-it",
+    "title": "TranslateGemma 27B IT",
+    "provider": "Google",
+    "url": "/Google/translategemma-27b-it",
+    "json": "/Infomaniak-AI/vllm-translategemma-27b-it.json",
+    "derived_from": "Google/translategemma-27b-it"
+  },
+  {
+    "hf_id": "google/translategemma-4b-it",
+    "title": "TranslateGemma 27B IT",
+    "provider": "Google",
+    "url": "/Google/translategemma-27b-it",
+    "json": "/google/translategemma-4b-it.json",
+    "derived_from": "Google/translategemma-27b-it"
+  },
+  {
+    "hf_id": "RedHatAI/Mellum2-12B-A2.5B-Thinking-FP8-Dynamic",
+    "title": "Mellum2-12B-A2.5B-Thinking",
+    "provider": "JetBrains",
+    "url": "/JetBrains/Mellum2-12B-A2.5B-Thinking",
+    "json": "/RedHatAI/Mellum2-12B-A2.5B-Thinking-FP8-Dynamic.json",
+    "derived_from": "JetBrains/Mellum2-12B-A2.5B-Thinking"
+  },
+  {
+    "hf_id": "RedHatAI/Mellum2-12B-A2.5B-Thinking-NVFP4",
+    "title": "Mellum2-12B-A2.5B-Thinking",
+    "provider": "JetBrains",
+    "url": "/JetBrains/Mellum2-12B-A2.5B-Thinking",
+    "json": "/RedHatAI/Mellum2-12B-A2.5B-Thinking-NVFP4.json",
+    "derived_from": "JetBrains/Mellum2-12B-A2.5B-Thinking"
+  },
+  {
+    "hf_id": "nvidia/MiniMax-M2.5-NVFP4",
+    "title": "MiniMax-M2.5",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.5",
+    "json": "/nvidia/MiniMax-M2.5-NVFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M2.5"
+  },
+  {
+    "hf_id": "RedHatAI/MiniMax-M2.5-NVFP4",
+    "title": "MiniMax-M2.5",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.5",
+    "json": "/RedHatAI/MiniMax-M2.5-NVFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M2.5"
+  },
+  {
+    "hf_id": "nvidia/MiniMax-M2.7-NVFP4",
+    "title": "MiniMax-M2.7",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2.7",
+    "json": "/nvidia/MiniMax-M2.7-NVFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M2.7"
+  },
+  {
+    "hf_id": "RedHatAI/MiniMax-M2-NVFP4",
+    "title": "MiniMax-M2",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M2",
+    "json": "/RedHatAI/MiniMax-M2-NVFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M2"
+  },
+  {
+    "hf_id": "amd/MiniMax-M3.1-Flash-Quark-MXFP4",
+    "title": "MiniMax-M3.1-Flash",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3.1-Flash",
+    "json": "/amd/MiniMax-M3.1-Flash-Quark-MXFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M3.1-Flash"
+  },
+  {
+    "hf_id": "MiniMaxAI/MiniMax-M3-MXFP8",
+    "title": "MiniMax-M3",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3",
+    "json": "/MiniMaxAI/MiniMax-M3-MXFP8.json",
+    "derived_from": "MiniMaxAI/MiniMax-M3"
+  },
+  {
+    "hf_id": "nvidia/MiniMax-M3-NVFP4",
+    "title": "MiniMax-M3",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3",
+    "json": "/nvidia/MiniMax-M3-NVFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M3"
+  },
+  {
+    "hf_id": "amd/MiniMax-M3-MXFP4",
+    "title": "MiniMax-M3",
+    "provider": "MiniMax",
+    "url": "/MiniMaxAI/MiniMax-M3",
+    "json": "/amd/MiniMax-M3-MXFP4.json",
+    "derived_from": "MiniMaxAI/MiniMax-M3"
+  },
+  {
+    "hf_id": "RedHatAI/QwQ-32B-quantized.w8a8",
+    "title": "QwQ-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/QwQ-32B",
+    "json": "/RedHatAI/QwQ-32B-quantized.w8a8.json",
+    "derived_from": "Qwen/QwQ-32B"
+  },
+  {
+    "hf_id": "Qwen/QwQ-32B-AWQ",
+    "title": "QwQ-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/QwQ-32B",
+    "json": "/Qwen/QwQ-32B-AWQ.json",
+    "derived_from": "Qwen/QwQ-32B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen2.5-32B-FP8-dynamic",
+    "title": "Qwen2.5-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-32B",
+    "json": "/RedHatAI/Qwen2.5-32B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen2.5-32B"
+  },
+  {
+    "hf_id": "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
+    "title": "Qwen2.5-VL-72B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-72B-Instruct",
+    "json": "/Qwen/Qwen2.5-VL-72B-Instruct-AWQ.json",
+    "derived_from": "Qwen/Qwen2.5-VL-72B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen2.5-VL-72B-Instruct-FP8-dynamic",
+    "title": "Qwen2.5-VL-72B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-72B-Instruct",
+    "json": "/RedHatAI/Qwen2.5-VL-72B-Instruct-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen2.5-VL-72B-Instruct"
+  },
+  {
+    "hf_id": "Qwen/Qwen2.5-VL-7B-Instruct-AWQ",
+    "title": "Qwen2.5-VL-7B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-7B-Instruct",
+    "json": "/Qwen/Qwen2.5-VL-7B-Instruct-AWQ.json",
+    "derived_from": "Qwen/Qwen2.5-VL-7B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen2.5-VL-7B-Instruct-FP8-Dynamic",
+    "title": "Qwen2.5-VL-7B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen2.5-VL-7B-Instruct",
+    "json": "/RedHatAI/Qwen2.5-VL-7B-Instruct-FP8-Dynamic.json",
+    "derived_from": "Qwen/Qwen2.5-VL-7B-Instruct"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-14B-FP8",
+    "title": "Qwen3-14B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-14B",
+    "json": "/Qwen/Qwen3-14B-FP8.json",
+    "derived_from": "Qwen/Qwen3-14B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-14B-AWQ",
+    "title": "Qwen3-14B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-14B",
+    "json": "/Qwen/Qwen3-14B-AWQ.json",
+    "derived_from": "Qwen/Qwen3-14B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-235B-A22B-FP8",
+    "title": "Qwen3-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "json": "/Qwen/Qwen3-235B-A22B-FP8.json",
+    "derived_from": "Qwen/Qwen3-235B-A22B-Instruct-2507"
+  },
+  {
+    "hf_id": "nvidia/Qwen3-235B-A22B-Instruct-2507-NVFP4",
+    "title": "Qwen3-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "json": "/nvidia/Qwen3-235B-A22B-Instruct-2507-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-235B-A22B-Instruct-2507"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-235B-A22B-Instruct-2507-NVFP4",
+    "title": "Qwen3-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "json": "/RedHatAI/Qwen3-235B-A22B-Instruct-2507-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-235B-A22B-Instruct-2507"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3-30B-A3B-w8a8",
+    "title": "Qwen3-30B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-30B-A3B",
+    "json": "/Eco-Tech/Qwen3-30B-A3B-w8a8.json",
+    "derived_from": "Qwen/Qwen3-30B-A3B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-32B-FP8",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/Qwen/Qwen3-32B-FP8.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-32B-AWQ",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/Qwen/Qwen3-32B-AWQ.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-32B-FP8-dynamic",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/RedHatAI/Qwen3-32B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-32B-FP8-block",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/RedHatAI/Qwen3-32B-FP8-block.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-32B-NVFP4",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/RedHatAI/Qwen3-32B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-32B-NVFP4A16",
+    "title": "Qwen3-32B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-32B",
+    "json": "/RedHatAI/Qwen3-32B-NVFP4A16.json",
+    "derived_from": "Qwen/Qwen3-32B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-4B-FP8",
+    "title": "Qwen3-4B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-4B",
+    "json": "/Qwen/Qwen3-4B-FP8.json",
+    "derived_from": "Qwen/Qwen3-4B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-4B-FP8-dynamic",
+    "title": "Qwen3-4B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-4B",
+    "json": "/RedHatAI/Qwen3-4B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3-4B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+    "title": "Qwen3-Coder-480B-A35B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "json": "/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8.json",
+    "derived_from": "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Qwen3-Coder-480B-A35B-Instruct-NVFP4",
+    "title": "Qwen3-Coder-480B-A35B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "json": "/nvidia/Qwen3-Coder-480B-A35B-Instruct-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-Coder-480B-A35B-Instruct-FP8",
+    "title": "Qwen3-Coder-480B-A35B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "json": "/RedHatAI/Qwen3-Coder-480B-A35B-Instruct-FP8.json",
+    "derived_from": "Qwen/Qwen3-Coder-480B-A35B-Instruct"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-Next-80B-A3B-Instruct-FP8",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/Qwen/Qwen3-Next-80B-A3B-Instruct-FP8.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Qwen3-Next-80B-A3B-Instruct-NVFP4",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/nvidia/Qwen3-Next-80B-A3B-Instruct-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8-dynamic",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8-block",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/RedHatAI/Qwen3-Next-80B-A3B-Instruct-FP8-block.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-Next-80B-A3B-Instruct-NVFP4",
+    "title": "Qwen3-Next-80B-A3B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "json": "/RedHatAI/Qwen3-Next-80B-A3B-Instruct-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-Next-80B-A3B-Instruct"
+  },
+  {
+    "hf_id": "Qwen/Qwen3-VL-235B-A22B-Instruct-FP8",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8.json",
+    "derived_from": "Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/nvidia/Qwen3-VL-235B-A22B-Instruct-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-VL-235B-A22B-Instruct-FP8-dynamic",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/RedHatAI/Qwen3-VL-235B-A22B-Instruct-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-VL-235B-A22B-Instruct-FP8-block",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/RedHatAI/Qwen3-VL-235B-A22B-Instruct-FP8-block.json",
+    "derived_from": "Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4",
+    "title": "Qwen3-VL-235B-A22B-Instruct",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "json": "/RedHatAI/Qwen3-VL-235B-A22B-Instruct-NVFP4.json",
+    "derived_from": "Qwen/Qwen3-VL-235B-A22B-Instruct"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-122B-A10B-FP8",
+    "title": "Qwen3.5-122B-A10B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-122B-A10B",
+    "json": "/Qwen/Qwen3.5-122B-A10B-FP8.json",
+    "derived_from": "Qwen/Qwen3.5-122B-A10B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-122B-A10B-NVFP4",
+    "title": "Qwen3.5-122B-A10B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-122B-A10B",
+    "json": "/RedHatAI/Qwen3.5-122B-A10B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.5-122B-A10B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
+    "title": "Qwen3.5-122B-A10B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-122B-A10B",
+    "json": "/Qwen/Qwen3.5-122B-A10B-GPTQ-Int4.json",
+    "derived_from": "Qwen/Qwen3.5-122B-A10B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-122B-A10B-FP8-dynamic",
+    "title": "Qwen3.5-122B-A10B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-122B-A10B",
+    "json": "/RedHatAI/Qwen3.5-122B-A10B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.5-122B-A10B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-27B-FP8",
+    "title": "Qwen3.5-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-27B",
+    "json": "/Qwen/Qwen3.5-27B-FP8.json",
+    "derived_from": "Qwen/Qwen3.5-27B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-27B-GPTQ-Int4",
+    "title": "Qwen3.5-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-27B",
+    "json": "/Qwen/Qwen3.5-27B-GPTQ-Int4.json",
+    "derived_from": "Qwen/Qwen3.5-27B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-35B-A3B-FP8",
+    "title": "Qwen3.5-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-35B-A3B",
+    "json": "/Qwen/Qwen3.5-35B-A3B-FP8.json",
+    "derived_from": "Qwen/Qwen3.5-35B-A3B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+    "title": "Qwen3.5-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-35B-A3B",
+    "json": "/Qwen/Qwen3.5-35B-A3B-GPTQ-Int4.json",
+    "derived_from": "Qwen/Qwen3.5-35B-A3B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic",
+    "title": "Qwen3.5-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-35B-A3B",
+    "json": "/RedHatAI/Qwen3.5-35B-A3B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.5-35B-A3B"
+  },
+  {
+    "hf_id": "nvidia/Qwen3.5-397B-A17B-NVFP4",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/nvidia/Qwen3.5-397B-A17B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/RedHatAI/Qwen3.5-397B-A17B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/Qwen/Qwen3.5-397B-A17B-GPTQ-Int4.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "amd/Qwen3.5-397B-A17B-MXFP4",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/amd/Qwen3.5-397B-A17B-MXFP4.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3.5-397B-A17B-w8a8-mtp",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/Eco-Tech/Qwen3.5-397B-A17B-w8a8-mtp.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3.5-397B-A17B-w4a4-mxfp4",
+    "title": "Qwen3.5-397B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-397B-A17B",
+    "json": "/Eco-Tech/Qwen3.5-397B-A17B-w4a4-mxfp4.json",
+    "derived_from": "Qwen/Qwen3.5-397B-A17B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-4B-FP8-dynamic",
+    "title": "Qwen3.5-4B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-4B",
+    "json": "/RedHatAI/Qwen3.5-4B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.5-4B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.5-9B-FP8-dynamic",
+    "title": "Qwen3.5-9B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.5-9B",
+    "json": "/RedHatAI/Qwen3.5-9B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.5-9B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.6-27B-FP8",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/Qwen/Qwen3.6-27B-FP8.json",
+    "derived_from": "Qwen/Qwen3.6-27B"
+  },
+  {
+    "hf_id": "nvidia/Qwen3.6-27B-NVFP4",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/nvidia/Qwen3.6-27B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.6-27B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.6-27B-FP8",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/RedHatAI/Qwen3.6-27B-FP8.json",
+    "derived_from": "Qwen/Qwen3.6-27B"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3.6-27B-w8a8-mxfp8",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/Eco-Tech/Qwen3.6-27B-w8a8-mxfp8.json",
+    "derived_from": "Qwen/Qwen3.6-27B"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3.6-27B-w8a8",
+    "title": "Qwen3.6-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-27B",
+    "json": "/Eco-Tech/Qwen3.6-27B-w8a8.json",
+    "derived_from": "Qwen/Qwen3.6-27B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.6-35B-A3B-FP8",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/Qwen/Qwen3.6-35B-A3B-FP8.json",
+    "derived_from": "Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "hf_id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/nvidia/Qwen3.6-35B-A3B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.6-35B-A3B-NVFP4",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/RedHatAI/Qwen3.6-35B-A3B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.6-35B-A3B-FP8-dynamic",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/RedHatAI/Qwen3.6-35B-A3B-FP8-dynamic.json",
+    "derived_from": "Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.6-35B-A3B-FP8",
+    "title": "Qwen3.6-35B-A3B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.6-35B-A3B",
+    "json": "/RedHatAI/Qwen3.6-35B-A3B-FP8.json",
+    "derived_from": "Qwen/Qwen3.6-35B-A3B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+    "title": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-2.4T-A95B",
+    "json": "/Qwen/Qwen3.8-2.4T-A95B-FP8.json",
+    "derived_from": "Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
+    "hf_id": "Inferact/Qwen3.8-2.4T-A95B-MXFP4",
+    "title": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-2.4T-A95B",
+    "json": "/Inferact/Qwen3.8-2.4T-A95B-MXFP4.json",
+    "derived_from": "Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
+    "hf_id": "Inferact/Qwen3.8-2.4T-A95B-NVFP4",
+    "title": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-2.4T-A95B",
+    "json": "/Inferact/Qwen3.8-2.4T-A95B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.8-2.4T-A95B-NVFP4-REAP-25",
+    "title": "Qwen3.8-2.4T-A95B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-2.4T-A95B",
+    "json": "/RedHatAI/Qwen3.8-2.4T-A95B-NVFP4-REAP-25.json",
+    "derived_from": "Qwen/Qwen3.8-2.4T-A95B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-27B-FP8",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/Qwen/Qwen3.8-27B-FP8.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "Inferact/Qwen3.8-27B-NVFP4",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/Inferact/Qwen3.8-27B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "nvidia/Qwen3.8-27B-NVFP4",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/nvidia/Qwen3.8-27B-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.8-27B-INT4",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/RedHatAI/Qwen3.8-27B-INT4.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "RedHatAI/Qwen3.8-27B-MXFP4",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/RedHatAI/Qwen3.8-27B-MXFP4.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "Eco-Tech/Qwen3.8-27B-w8a8",
+    "title": "Qwen3.8-27B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-27B",
+    "json": "/Eco-Tech/Qwen3.8-27B-w8a8.json",
+    "derived_from": "Qwen/Qwen3.8-27B"
+  },
+  {
+    "hf_id": "Inferact/Qwen3.8-Flash-Next-NVFP4",
+    "title": "Qwen3.8-Flash-Next",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-Flash-Next",
+    "json": "/Inferact/Qwen3.8-Flash-Next-NVFP4.json",
+    "derived_from": "Qwen/Qwen3.8-Flash-Next"
+  },
+  {
+    "hf_id": "Qwen/Qwen3.8-Flash-Next-FP8",
+    "title": "Qwen3.8-Flash-Next",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-Flash-Next",
+    "json": "/Qwen/Qwen3.8-Flash-Next-FP8.json",
+    "derived_from": "Qwen/Qwen3.8-Flash-Next"
+  },
+  {
+    "hf_id": "Qwen/Qwen3Guard-Gen-4B",
+    "title": "Qwen3Guard-Gen-8B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3Guard-Gen-8B",
+    "json": "/Qwen/Qwen3Guard-Gen-4B.json",
+    "derived_from": "Qwen/Qwen3Guard-Gen-8B"
+  },
+  {
+    "hf_id": "Qwen/Qwen3Guard-Gen-0.6B",
+    "title": "Qwen3Guard-Gen-8B",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3Guard-Gen-8B",
+    "json": "/Qwen/Qwen3Guard-Gen-0.6B.json",
+    "derived_from": "Qwen/Qwen3Guard-Gen-8B"
+  },
+  {
+    "hf_id": "RecursiveSI/flint-nvfp4-gguf",
+    "title": "Flint",
+    "provider": "RecursiveSI",
+    "url": "/RecursiveSI/flint",
+    "json": "/RecursiveSI/flint-nvfp4-gguf.json",
+    "derived_from": "RecursiveSI/flint"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
+    "title": "MiMo-V2.6-Flash-RL",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+    "json": "/XiaomiMiMo/MiMo-V2.6-Flash-MOPD.json",
+    "derived_from": "XiaomiMiMo/MiMo-V2.6-Flash-RL"
+  },
+  {
+    "hf_id": "XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
+    "title": "MiMo-V2.6-Pro-RL",
+    "provider": "MiMo (Xiaomi)",
+    "url": "/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "json": "/XiaomiMiMo/MiMo-V2.6-Pro-MOPD.json",
+    "derived_from": "XiaomiMiMo/MiMo-V2.6-Pro-RL"
+  },
+  {
+    "hf_id": "arcee-ai/Trinity-Large-Thinking-NVFP4",
+    "title": "Trinity-Large-Thinking",
+    "provider": "Arcee AI",
+    "url": "/arcee-ai/Trinity-Large-Thinking",
+    "json": "/arcee-ai/Trinity-Large-Thinking-NVFP4.json",
+    "derived_from": "arcee-ai/Trinity-Large-Thinking"
+  },
+  {
+    "hf_id": "RedHatAI/Trinity-Large-Thinking-NVFP4",
+    "title": "Trinity-Large-Thinking",
+    "provider": "Arcee AI",
+    "url": "/arcee-ai/Trinity-Large-Thinking",
+    "json": "/RedHatAI/Trinity-Large-Thinking-NVFP4.json",
+    "derived_from": "arcee-ai/Trinity-Large-Thinking"
+  },
+  {
+    "hf_id": "baidu/ERNIE-4.5-300B-A47B-PT",
+    "title": "ERNIE-4.5",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/ERNIE-4.5-21B-A3B-PT",
+    "json": "/baidu/ERNIE-4.5-300B-A47B-PT.json",
+    "derived_from": "baidu/ERNIE-4.5-21B-A3B-PT"
+  },
+  {
+    "hf_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
+    "title": "ERNIE-4.5-VL",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/ERNIE-4.5-VL-28B-A3B-PT",
+    "json": "/baidu/ERNIE-4.5-VL-424B-A47B-PT.json",
+    "derived_from": "baidu/ERNIE-4.5-VL-28B-A3B-PT"
+  },
+  {
+    "hf_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
+    "title": "ERNIE-4.5-VL",
+    "provider": "Ernie (Baidu)",
+    "url": "/baidu/ERNIE-4.5-VL-28B-A3B-PT",
+    "json": "/baidu/ERNIE-4.5-VL-424B-A47B-PT.json",
+    "derived_from": "baidu/ERNIE-4.5-VL-28B-A3B-PT"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-R1-0528",
+    "title": "DeepSeek-R1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-R1",
+    "json": "/deepseek-ai/DeepSeek-R1-0528.json",
+    "derived_from": "deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-R1-0528-NVFP4-v2",
+    "title": "DeepSeek-R1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-R1",
+    "json": "/nvidia/DeepSeek-R1-0528-NVFP4-v2.json",
+    "derived_from": "deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "hf_id": "amd/DeepSeek-R1-0528-MXFP4-MTP-MoEFP4",
+    "title": "DeepSeek-R1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-R1",
+    "json": "/amd/DeepSeek-R1-0528-MXFP4-MTP-MoEFP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "hf_id": "RedHatAI/DeepSeek-R1-NVFP4-FP8-BLOCK",
+    "title": "DeepSeek-R1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-R1",
+    "json": "/RedHatAI/DeepSeek-R1-NVFP4-FP8-BLOCK.json",
+    "derived_from": "deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-V3.1-NVFP4",
+    "title": "DeepSeek-V3.1",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.1",
+    "json": "/nvidia/DeepSeek-V3.1-NVFP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-V3.1"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-V3.2-NVFP4",
+    "title": "DeepSeek-V3.2",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.2",
+    "json": "/nvidia/DeepSeek-V3.2-NVFP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-V3.2"
+  },
+  {
+    "hf_id": "RedHatAI/DeepSeek-V3.2-NVFP4-FP8-BLOCK",
+    "title": "DeepSeek-V3.2",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3.2",
+    "json": "/RedHatAI/DeepSeek-V3.2-NVFP4-FP8-BLOCK.json",
+    "derived_from": "deepseek-ai/DeepSeek-V3.2"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V3-0324",
+    "title": "DeepSeek-V3",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3",
+    "json": "/deepseek-ai/DeepSeek-V3-0324.json",
+    "derived_from": "deepseek-ai/DeepSeek-V3"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-V3-FP4",
+    "title": "DeepSeek-V3",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V3",
+    "json": "/nvidia/DeepSeek-V3-FP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-V3"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/deepseek-ai/DeepSeek-V4-Flash-0731.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-V4-Flash-NVFP4",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/nvidia/DeepSeek-V4-Flash-NVFP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "hf_id": "RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/RedHatAI/DeepSeek-V4-Flash-NVFP4-FP8.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Flash-DSpark",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/deepseek-ai/DeepSeek-V4-Flash-DSpark.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "hf_id": "Eco-Tech/DeepSeek-V4-Flash-w8a8-mtp",
+    "title": "DeepSeek-V4-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Flash",
+    "json": "/Eco-Tech/DeepSeek-V4-Flash-w8a8-mtp.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Flash"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "title": "DeepSeek-V4-Pro",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Pro",
+    "json": "/deepseek-ai/DeepSeek-V4-Pro-0813.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "hf_id": "nvidia/DeepSeek-V4-Pro-NVFP4",
+    "title": "DeepSeek-V4-Pro",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Pro",
+    "json": "/nvidia/DeepSeek-V4-Pro-NVFP4.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+    "title": "DeepSeek-V4-Pro",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Pro",
+    "json": "/deepseek-ai/DeepSeek-V4-Pro-DSpark.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "hf_id": "RedHatAI/DeepSeek-V4-Pro-NVFP4-FP8",
+    "title": "DeepSeek-V4-Pro",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4-Pro",
+    "json": "/RedHatAI/DeepSeek-V4-Pro-NVFP4-FP8.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4-Pro"
+  },
+  {
+    "hf_id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "title": "DeepSeek-V4.1-Flash",
+    "provider": "DeepSeek",
+    "url": "/deepseek-ai/DeepSeek-V4.1-Flash",
+    "json": "/deepseek-ai/DeepSeek-V4.1-Flash-1017.json",
+    "derived_from": "deepseek-ai/DeepSeek-V4.1-Flash"
+  },
+  {
+    "hf_id": "dots-studio/dots3-note-prev-fp8",
+    "title": "dots3-note-prev",
+    "provider": "Dots",
+    "url": "/dots-studio/dots3-note-prev",
+    "json": "/dots-studio/dots3-note-prev-fp8.json",
+    "derived_from": "dots-studio/dots3-note-prev"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-VL-fp8",
+    "title": "Ling-3.0-flash-VL",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash-VL",
+    "json": "/inclusionAI/Ling-3.0-flash-VL-fp8.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash-VL"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-VL-fp4",
+    "title": "Ling-3.0-flash-VL",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash-VL",
+    "json": "/inclusionAI/Ling-3.0-flash-VL-fp4.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash-VL"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-VL-int4",
+    "title": "Ling-3.0-flash-VL",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash-VL",
+    "json": "/inclusionAI/Ling-3.0-flash-VL-int4.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash-VL"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-fp8",
+    "title": "Ling-3.0-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash",
+    "json": "/inclusionAI/Ling-3.0-flash-fp8.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-fp4",
+    "title": "Ling-3.0-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash",
+    "json": "/inclusionAI/Ling-3.0-flash-fp4.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-flash-int4",
+    "title": "Ling-3.0-flash",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-flash",
+    "json": "/inclusionAI/Ling-3.0-flash-int4.json",
+    "derived_from": "inclusionAI/Ling-3.0-flash"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-tiny-fp8",
+    "title": "Ling-3.0-tiny",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-tiny",
+    "json": "/inclusionAI/Ling-3.0-tiny-fp8.json",
+    "derived_from": "inclusionAI/Ling-3.0-tiny"
+  },
+  {
+    "hf_id": "inclusionAI/Ling-3.0-tiny-int4",
+    "title": "Ling-3.0-tiny",
+    "provider": "inclusionAI",
+    "url": "/inclusionAI/Ling-3.0-tiny",
+    "json": "/inclusionAI/Ling-3.0-tiny-int4.json",
+    "derived_from": "inclusionAI/Ling-3.0-tiny"
+  },
+  {
+    "hf_id": "internlm/Intern-S1-FP8",
+    "title": "Intern-S1",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S1",
+    "json": "/internlm/Intern-S1-FP8.json",
+    "derived_from": "internlm/Intern-S1"
+  },
+  {
+    "hf_id": "internlm/Intern-S2-397B-FP8",
+    "title": "Intern-S2-397B",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S2-397B",
+    "json": "/internlm/Intern-S2-397B-FP8.json",
+    "derived_from": "internlm/Intern-S2-397B"
+  },
+  {
+    "hf_id": "internlm/Intern-S2-Preview-FP8",
+    "title": "Intern-S2-Preview",
+    "provider": "InternLM",
+    "url": "/internlm/Intern-S2-Preview",
+    "json": "/internlm/Intern-S2-Preview-FP8.json",
+    "derived_from": "internlm/Intern-S2-Preview"
+  },
+  {
+    "hf_id": "jinaai/jina-embeddings-v5-text-small-retrieval",
+    "title": "Jina Embeddings v5 Text Small",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-embeddings-v5-text-small",
+    "json": "/jinaai/jina-embeddings-v5-text-small-retrieval.json",
+    "derived_from": "jinaai/jina-embeddings-v5-text-small"
+  },
+  {
+    "hf_id": "jinaai/jina-embeddings-v5-text-small-text-matching",
+    "title": "Jina Embeddings v5 Text Small",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-embeddings-v5-text-small",
+    "json": "/jinaai/jina-embeddings-v5-text-small-text-matching.json",
+    "derived_from": "jinaai/jina-embeddings-v5-text-small"
+  },
+  {
+    "hf_id": "jinaai/jina-embeddings-v5-text-small-classification",
+    "title": "Jina Embeddings v5 Text Small",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-embeddings-v5-text-small",
+    "json": "/jinaai/jina-embeddings-v5-text-small-classification.json",
+    "derived_from": "jinaai/jina-embeddings-v5-text-small"
+  },
+  {
+    "hf_id": "jinaai/jina-embeddings-v5-text-small-clustering",
+    "title": "Jina Embeddings v5 Text Small",
+    "provider": "Jina AI",
+    "url": "/jinaai/jina-embeddings-v5-text-small",
+    "json": "/jinaai/jina-embeddings-v5-text-small-clustering.json",
+    "derived_from": "jinaai/jina-embeddings-v5-text-small"
+  },
+  {
+    "hf_id": "RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/RedHatAI/Meta-Llama-3.1-8B-Instruct-quantized.w8a8.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-3.1-8B-Instruct-NVFP4",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/nvidia/Llama-3.1-8B-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-3.1-8B-Instruct-FP8",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/nvidia/Llama-3.1-8B-Instruct-FP8.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.1-8B-Instruct-FP8-block",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/RedHatAI/Llama-3.1-8B-Instruct-FP8-block.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.1-8B-Instruct-NVFP4",
+    "title": "Llama-3.1-8B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B-Instruct",
+    "json": "/RedHatAI/Llama-3.1-8B-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Meta-Llama-3.1-8B-quantized.w8a8",
+    "title": "Llama-3.1-8B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.1-8B",
+    "json": "/RedHatAI/Meta-Llama-3.1-8B-quantized.w8a8.json",
+    "derived_from": "meta-llama/Llama-3.1-8B"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.2-1B-Instruct-quantized.w8a8",
+    "title": "Llama-3.2-1B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-1B-Instruct",
+    "json": "/RedHatAI/Llama-3.2-1B-Instruct-quantized.w8a8.json",
+    "derived_from": "meta-llama/Llama-3.2-1B-Instruct"
+  },
+  {
+    "hf_id": "AMead10/Llama-3.2-1B-Instruct-AWQ",
+    "title": "Llama-3.2-1B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-1B-Instruct",
+    "json": "/AMead10/Llama-3.2-1B-Instruct-AWQ.json",
+    "derived_from": "meta-llama/Llama-3.2-1B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.2-3B-Instruct-quantized.w8a8",
+    "title": "Llama-3.2-3B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-3B-Instruct",
+    "json": "/RedHatAI/Llama-3.2-3B-Instruct-quantized.w8a8.json",
+    "derived_from": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  {
+    "hf_id": "AMead10/Llama-3.2-3B-Instruct-AWQ",
+    "title": "Llama-3.2-3B-Instruct",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.2-3B-Instruct",
+    "json": "/AMead10/Llama-3.2-3B-Instruct-AWQ.json",
+    "derived_from": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-3.3-70B-Instruct-FP8",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/nvidia/Llama-3.3-70B-Instruct-FP8.json",
+    "derived_from": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic.json",
+    "derived_from": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-3.3-70B-Instruct-NVFP4",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/nvidia/Llama-3.3-70B-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.3-70B-Instruct-FP8-block",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/RedHatAI/Llama-3.3-70B-Instruct-FP8-block.json",
+    "derived_from": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-3.3-70B-Instruct-NVFP4",
+    "title": "Llama-3.3-70B",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-3.3-70B-Instruct",
+    "json": "/RedHatAI/Llama-3.3-70B-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-4-Scout-17B-16E-Instruct-FP8",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/nvidia/Llama-4-Scout-17B-16E-Instruct-FP8.json",
+    "derived_from": "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "hf_id": "nvidia/Llama-4-Scout-17B-16E-Instruct-NVFP4",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/nvidia/Llama-4-Scout-17B-16E-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic.json",
+    "derived_from": "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-NVFP4",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/RedHatAI/Llama-4-Scout-17B-16E-Instruct-NVFP4.json",
+    "derived_from": "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-block",
+    "title": "Llama-4-Scout",
+    "provider": "Meta",
+    "url": "/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "json": "/RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-block.json",
+    "derived_from": "meta-llama/Llama-4-Scout-17B-16E-Instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Muse-Glimmer-30B-FP8-block",
+    "title": "Muse Glimmer 30B",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Glimmer-30B",
+    "json": "/RedHatAI/Muse-Glimmer-30B-FP8-block.json",
+    "derived_from": "meta-models/Muse-Glimmer-30B"
+  },
+  {
+    "hf_id": "Inferact/Muse-Glimmer-30B-NVFP4-W4A4",
+    "title": "Muse Glimmer 30B",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Glimmer-30B",
+    "json": "/Inferact/Muse-Glimmer-30B-NVFP4-W4A4.json",
+    "derived_from": "meta-models/Muse-Glimmer-30B"
+  },
+  {
+    "hf_id": "amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4",
+    "title": "Muse Spark Open",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Spark-Open-816B-A42B",
+    "json": "/amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4.json",
+    "derived_from": "meta-models/Muse-Spark-Open-816B-A42B"
+  },
+  {
+    "hf_id": "meta-models/Muse-Spark-Open-816B-A42B-NVFP4",
+    "title": "Muse Spark Open",
+    "provider": "Muse (Meta)",
+    "url": "/meta-models/Muse-Spark-Open-816B-A42B",
+    "json": "/meta-models/Muse-Spark-Open-816B-A42B-NVFP4.json",
+    "derived_from": "meta-models/Muse-Spark-Open-816B-A42B"
+  },
+  {
+    "hf_id": "microsoft/Phi-4-mini-reasoning",
+    "title": "Phi-4",
+    "provider": "Microsoft",
+    "url": "/microsoft/Phi-4-mini-instruct",
+    "json": "/microsoft/Phi-4-mini-reasoning.json",
+    "derived_from": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "hf_id": "RedHatAI/Phi-4-mini-instruct-FP8-dynamic",
+    "title": "Phi-4",
+    "provider": "Microsoft",
+    "url": "/microsoft/Phi-4-mini-instruct",
+    "json": "/RedHatAI/Phi-4-mini-instruct-FP8-dynamic.json",
+    "derived_from": "microsoft/Phi-4-mini-instruct"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-8B-Instruct-2512",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/mistralai/Ministral-3-8B-Instruct-2512.json",
+    "derived_from": "mistralai/Ministral-3-14B-Instruct-2512"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-3B-Instruct-2512",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/mistralai/Ministral-3-3B-Instruct-2512.json",
+    "derived_from": "mistralai/Ministral-3-14B-Instruct-2512"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-14B-Instruct-2512-FP8",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/mistralai/Ministral-3-14B-Instruct-2512-FP8.json",
+    "derived_from": "mistralai/Ministral-3-14B-Instruct-2512"
+  },
+  {
+    "hf_id": "RedHatAI/Ministral-3-14B-Instruct-2512-FP8-dynamic",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/RedHatAI/Ministral-3-14B-Instruct-2512-FP8-dynamic.json",
+    "derived_from": "mistralai/Ministral-3-14B-Instruct-2512"
+  },
+  {
+    "hf_id": "RedHatAI/Ministral-3-14B-Instruct-2512-NVFP4",
+    "title": "Ministral-3-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-14B-Instruct-2512",
+    "json": "/RedHatAI/Ministral-3-14B-Instruct-2512-NVFP4.json",
+    "derived_from": "mistralai/Ministral-3-14B-Instruct-2512"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-3B-Reasoning-2512",
+    "title": "Ministral-3-Reasoning",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-8B-Reasoning-2512",
+    "json": "/mistralai/Ministral-3-3B-Reasoning-2512.json",
+    "derived_from": "mistralai/Ministral-3-8B-Reasoning-2512"
+  },
+  {
+    "hf_id": "mistralai/Ministral-3-14B-Reasoning-2512",
+    "title": "Ministral-3-Reasoning",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Ministral-3-8B-Reasoning-2512",
+    "json": "/mistralai/Ministral-3-14B-Reasoning-2512.json",
+    "derived_from": "mistralai/Ministral-3-8B-Reasoning-2512"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+    "title": "Mistral-Large-3-675B-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "json": "/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4.json",
+    "derived_from": "mistralai/Mistral-Large-3-675B-Instruct-2512"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Large-3-675B-Instruct-2512-FP8",
+    "title": "Mistral-Large-3-675B-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "json": "/mistralai/Mistral-Large-3-675B-Instruct-2512-FP8.json",
+    "derived_from": "mistralai/Mistral-Large-3-675B-Instruct-2512"
+  },
+  {
+    "hf_id": "RedHatAI/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+    "title": "Mistral-Large-3-675B-Instruct",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Large-3-675B-Instruct-2512",
+    "json": "/RedHatAI/Mistral-Large-3-675B-Instruct-2512-NVFP4.json",
+    "derived_from": "mistralai/Mistral-Large-3-675B-Instruct-2512"
+  },
+  {
+    "hf_id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
+    "title": "Mistral-Small-4-119B",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Small-4-119B-2603",
+    "json": "/mistralai/Mistral-Small-4-119B-2603-NVFP4.json",
+    "derived_from": "mistralai/Mistral-Small-4-119B-2603"
+  },
+  {
+    "hf_id": "RedHatAI/Mistral-Small-4-119B-2603-NVFP4",
+    "title": "Mistral-Small-4-119B",
+    "provider": "Mistral AI",
+    "url": "/mistralai/Mistral-Small-4-119B-2603",
+    "json": "/RedHatAI/Mistral-Small-4-119B-2603-NVFP4.json",
+    "derived_from": "mistralai/Mistral-Small-4-119B-2603"
+  },
+  {
+    "hf_id": "nvidia/Kimi-K2-Thinking-NVFP4",
+    "title": "Kimi-K2-Thinking",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2-Thinking",
+    "json": "/nvidia/Kimi-K2-Thinking-NVFP4.json",
+    "derived_from": "moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "hf_id": "RedHatAI/Kimi-K2-Thinking-FP8-Block",
+    "title": "Kimi-K2-Thinking",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2-Thinking",
+    "json": "/RedHatAI/Kimi-K2-Thinking-FP8-Block.json",
+    "derived_from": "moonshotai/Kimi-K2-Thinking"
+  },
+  {
+    "hf_id": "nvidia/Kimi-K2.5-NVFP4",
+    "title": "Kimi-K2.5",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.5",
+    "json": "/nvidia/Kimi-K2.5-NVFP4.json",
+    "derived_from": "moonshotai/Kimi-K2.5"
+  },
+  {
+    "hf_id": "amd/Kimi-K2.5-MXFP4",
+    "title": "Kimi-K2.5",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.5",
+    "json": "/amd/Kimi-K2.5-MXFP4.json",
+    "derived_from": "moonshotai/Kimi-K2.5"
+  },
+  {
+    "hf_id": "nvidia/Kimi-K2.6-NVFP4",
+    "title": "Kimi-K2.6",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.6",
+    "json": "/nvidia/Kimi-K2.6-NVFP4.json",
+    "derived_from": "moonshotai/Kimi-K2.6"
+  },
+  {
+    "hf_id": "RedHatAI/Kimi-K2.6-FP8-BLOCK",
+    "title": "Kimi-K2.6",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.6",
+    "json": "/RedHatAI/Kimi-K2.6-FP8-BLOCK.json",
+    "derived_from": "moonshotai/Kimi-K2.6"
+  },
+  {
+    "hf_id": "RedHatAI/Kimi-K2.6-NVFP4",
+    "title": "Kimi-K2.6",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K2.6",
+    "json": "/RedHatAI/Kimi-K2.6-NVFP4.json",
+    "derived_from": "moonshotai/Kimi-K2.6"
+  },
+  {
+    "hf_id": "RedHatAI/Kimi-K3-NVFP4",
+    "title": "Kimi-K3",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K3",
+    "json": "/RedHatAI/Kimi-K3-NVFP4.json",
+    "derived_from": "moonshotai/Kimi-K3"
+  },
+  {
+    "hf_id": "Eco-Tech/Kimi-K3-w4a8",
+    "title": "Kimi-K3",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K3",
+    "json": "/Eco-Tech/Kimi-K3-w4a8.json",
+    "derived_from": "moonshotai/Kimi-K3"
+  },
+  {
+    "hf_id": "RedHatAI/Kimi-K3-FP8-BLOCK",
+    "title": "Kimi-K3",
+    "provider": "Moonshot AI",
+    "url": "/moonshotai/Kimi-K3",
+    "json": "/RedHatAI/Kimi-K3-FP8-BLOCK.json",
+    "derived_from": "moonshotai/Kimi-K3"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+    "title": "NVIDIA Nemotron-3-Nano-30B-A3B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8",
+    "title": "NVIDIA Nemotron-3-Nano-4B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Nano-4B-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+    "title": "NVIDIA Nemotron-3-Super-120B-A12B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+    "title": "NVIDIA Nemotron-3-Super-120B-A12B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+    "title": "NVIDIA Nemotron-3-Super-120B-A12B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+    "title": "NVIDIA Nemotron-3-Ultra-550B-A55B",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "title": "NVIDIA Nemotron 3.5 Lightning",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+  },
+  {
+    "hf_id": "RedHatAI/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-FP8",
+    "title": "NVIDIA Nemotron 3.5 Super VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "json": "/RedHatAI/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+    "title": "NVIDIA Nemotron 3.5 Super VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "json": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+    "title": "NVIDIA Nemotron 3.5 Super VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "json": "/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-FP8",
+    "title": "NVIDIA Nemotron-Nano-12B-v2-VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+    "title": "NVIDIA Nemotron-Nano-12B-v2-VL",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-FP8",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2-FP8.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-NVFP4",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2-NVFP4.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Base",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Base.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
+    "hf_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2-Japanese.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
+    "hf_id": "RedHatAI/NVIDIA-Nemotron-Nano-9B-v2-FP8-dynamic",
+    "title": "NVIDIA Nemotron-Nano-9B-v2",
+    "provider": "NVIDIA",
+    "url": "/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+    "json": "/RedHatAI/NVIDIA-Nemotron-Nano-9B-v2-FP8-dynamic.json",
+    "derived_from": "nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+  },
+  {
+    "hf_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+    "title": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "json": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8.json",
+    "derived_from": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
+  },
+  {
+    "hf_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+    "title": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+    "provider": "NVIDIA",
+    "url": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "json": "/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4.json",
+    "derived_from": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
+  },
+  {
+    "hf_id": "amd/gpt-oss-120b-w-mxfp4-a-fp8",
+    "title": "GPT-OSS",
+    "provider": "OpenAI",
+    "url": "/openai/gpt-oss-120b",
+    "json": "/amd/gpt-oss-120b-w-mxfp4-a-fp8.json",
+    "derived_from": "openai/gpt-oss-120b"
+  },
+  {
+    "hf_id": "poolside/Laguna-M.1-FP8",
+    "title": "Laguna M.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-M.1",
+    "json": "/poolside/Laguna-M.1-FP8.json",
+    "derived_from": "poolside/Laguna-M.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-M.1-NVFP4",
+    "title": "Laguna M.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-M.1",
+    "json": "/poolside/Laguna-M.1-NVFP4.json",
+    "derived_from": "poolside/Laguna-M.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-S-2.1-FP8",
+    "title": "Laguna S-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-S-2.1",
+    "json": "/poolside/Laguna-S-2.1-FP8.json",
+    "derived_from": "poolside/Laguna-S-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-S-2.1-NVFP4",
+    "title": "Laguna S-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-S-2.1",
+    "json": "/poolside/Laguna-S-2.1-NVFP4.json",
+    "derived_from": "poolside/Laguna-S-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-S-2.1-INT4",
+    "title": "Laguna S-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-S-2.1",
+    "json": "/poolside/Laguna-S-2.1-INT4.json",
+    "derived_from": "poolside/Laguna-S-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS-2.1-FP8",
+    "title": "Laguna XS-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS-2.1",
+    "json": "/poolside/Laguna-XS-2.1-FP8.json",
+    "derived_from": "poolside/Laguna-XS-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS-2.1-NVFP4",
+    "title": "Laguna XS-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS-2.1",
+    "json": "/poolside/Laguna-XS-2.1-NVFP4.json",
+    "derived_from": "poolside/Laguna-XS-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS-2.1-INT4",
+    "title": "Laguna XS-2.1",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS-2.1",
+    "json": "/poolside/Laguna-XS-2.1-INT4.json",
+    "derived_from": "poolside/Laguna-XS-2.1"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS.2-FP8",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/poolside/Laguna-XS.2-FP8.json",
+    "derived_from": "poolside/Laguna-XS.2"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS.2-NVFP4",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/poolside/Laguna-XS.2-NVFP4.json",
+    "derived_from": "poolside/Laguna-XS.2"
+  },
+  {
+    "hf_id": "poolside/Laguna-XS.2-INT4",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/poolside/Laguna-XS.2-INT4.json",
+    "derived_from": "poolside/Laguna-XS.2"
+  },
+  {
+    "hf_id": "RedHatAI/Laguna-XS.2-FP8",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/RedHatAI/Laguna-XS.2-FP8.json",
+    "derived_from": "poolside/Laguna-XS.2"
+  },
+  {
+    "hf_id": "RedHatAI/Laguna-XS.2-NVFP4",
+    "title": "Laguna XS.2",
+    "provider": "Poolside",
+    "url": "/poolside/Laguna-XS.2",
+    "json": "/RedHatAI/Laguna-XS.2-NVFP4.json",
+    "derived_from": "poolside/Laguna-XS.2"
+  },
+  {
+    "hf_id": "reflection/Beam-1.0-501B-A23B-NVFP4",
+    "title": "Beam-1.0-501B-A23B",
+    "provider": "Reflection",
+    "url": "/reflection/Beam-1.0-501B-A23B",
+    "json": "/reflection/Beam-1.0-501B-A23B-NVFP4.json",
+    "derived_from": "reflection/Beam-1.0-501B-A23B"
+  },
+  {
+    "hf_id": "reflection/Beam-1.0-501B-A23B-FP8",
+    "title": "Beam-1.0-501B-A23B",
+    "provider": "Reflection",
+    "url": "/reflection/Beam-1.0-501B-A23B",
+    "json": "/reflection/Beam-1.0-501B-A23B-FP8.json",
+    "derived_from": "reflection/Beam-1.0-501B-A23B"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.5-Flash-FP8",
+    "title": "Step-3.5-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.5-Flash",
+    "json": "/stepfun-ai/Step-3.5-Flash-FP8.json",
+    "derived_from": "stepfun-ai/Step-3.5-Flash"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.5-Flash-INT4",
+    "title": "Step-3.5-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.5-Flash",
+    "json": "/stepfun-ai/Step-3.5-Flash-INT4.json",
+    "derived_from": "stepfun-ai/Step-3.5-Flash"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.5-Flash-INT8",
+    "title": "Step-3.5-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.5-Flash",
+    "json": "/stepfun-ai/Step-3.5-Flash-INT8.json",
+    "derived_from": "stepfun-ai/Step-3.5-Flash"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.7-Flash-FP8",
+    "title": "Step-3.7-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.7-Flash",
+    "json": "/stepfun-ai/Step-3.7-Flash-FP8.json",
+    "derived_from": "stepfun-ai/Step-3.7-Flash"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-3.7-Flash-NVFP4",
+    "title": "Step-3.7-Flash",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-3.7-Flash",
+    "json": "/stepfun-ai/Step-3.7-Flash-NVFP4.json",
+    "derived_from": "stepfun-ai/Step-3.7-Flash"
+  },
+  {
+    "hf_id": "stepfun-ai/Step-5-Preview-NVFP4",
+    "title": "Step-5-Preview",
+    "provider": "StepFun",
+    "url": "/stepfun-ai/Step-5-Preview",
+    "json": "/stepfun-ai/Step-5-Preview-NVFP4.json",
+    "derived_from": "stepfun-ai/Step-5-Preview"
+  },
+  {
+    "hf_id": "tencent/Hunyuan-A13B-Instruct-FP8",
+    "title": "Hunyuan-A13B-Instruct",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/Hunyuan-A13B-Instruct",
+    "json": "/tencent/Hunyuan-A13B-Instruct-FP8.json",
+    "derived_from": "tencent/Hunyuan-A13B-Instruct"
+  },
+  {
+    "hf_id": "tencent/Hy3-FP8",
+    "title": "Hy3",
+    "provider": "Hy (Tencent)",
+    "url": "/tencent/Hy3",
+    "json": "/tencent/Hy3-FP8.json",
+    "derived_from": "tencent/Hy3"
+  },
+  {
+    "hf_id": "RedHatAI/Hy3-NVFP4-FP8",
+    "title": "Hy3",
+    "provider": "Hy (Tencent)",
+    "url": "/tencent/Hy3",
+    "json": "/RedHatAI/Hy3-NVFP4-FP8.json",
+    "derived_from": "tencent/Hy3"
+  },
+  {
+    "hf_id": "tencent/Hy4-preview-FP8",
+    "title": "Hy4-preview",
+    "provider": "Hunyuan (Tencent)",
+    "url": "/tencent/Hy4-preview",
+    "json": "/tencent/Hy4-preview-FP8.json",
+    "derived_from": "tencent/Hy4-preview"
+  },
+  {
+    "hf_id": "EmbeddedLLM/Inkling-Small-MXFP4",
+    "title": "TML Inkling-Small",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling-Small",
+    "json": "/EmbeddedLLM/Inkling-Small-MXFP4.json",
+    "derived_from": "thinkingmachines/Inkling-Small"
+  },
+  {
+    "hf_id": "RedHatAI/Inkling-Small-FP8-dynamic",
+    "title": "TML Inkling-Small",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling-Small",
+    "json": "/RedHatAI/Inkling-Small-FP8-dynamic.json",
+    "derived_from": "thinkingmachines/Inkling-Small"
+  },
+  {
+    "hf_id": "lightseekorg/Inkling-MXFP4",
+    "title": "TML Inkling",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling",
+    "json": "/lightseekorg/Inkling-MXFP4.json",
+    "derived_from": "thinkingmachines/Inkling"
+  },
+  {
+    "hf_id": "RedHatAI/Inkling-FP8-dynamic",
+    "title": "TML Inkling",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling",
+    "json": "/RedHatAI/Inkling-FP8-dynamic.json",
+    "derived_from": "thinkingmachines/Inkling"
+  },
+  {
+    "hf_id": "RedHatAI/Inkling-FP8-block",
+    "title": "TML Inkling",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling",
+    "json": "/RedHatAI/Inkling-FP8-block.json",
+    "derived_from": "thinkingmachines/Inkling"
+  },
+  {
+    "hf_id": "RedHatAI/Inkling-NVFP4",
+    "title": "TML Inkling",
+    "provider": "Thinking Machines Lab",
+    "url": "/thinkingmachines/Inkling",
+    "json": "/RedHatAI/Inkling-NVFP4.json",
+    "derived_from": "thinkingmachines/Inkling"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.5-FP8",
+    "title": "GLM-4.5",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.5",
+    "json": "/zai-org/GLM-4.5-FP8.json",
+    "derived_from": "zai-org/GLM-4.5"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.5V-FP8",
+    "title": "GLM-4.5V",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.5V",
+    "json": "/zai-org/GLM-4.5V-FP8.json",
+    "derived_from": "zai-org/GLM-4.5V"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.6-FP8",
+    "title": "GLM-4.6",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6",
+    "json": "/zai-org/GLM-4.6-FP8.json",
+    "derived_from": "zai-org/GLM-4.6"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-4.6-FP8-dynamic",
+    "title": "GLM-4.6",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6",
+    "json": "/RedHatAI/GLM-4.6-FP8-dynamic.json",
+    "derived_from": "zai-org/GLM-4.6"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-4.6-FP8",
+    "title": "GLM-4.6",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6",
+    "json": "/RedHatAI/GLM-4.6-FP8.json",
+    "derived_from": "zai-org/GLM-4.6"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-4.6-NVFP4",
+    "title": "GLM-4.6",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6",
+    "json": "/RedHatAI/GLM-4.6-NVFP4.json",
+    "derived_from": "zai-org/GLM-4.6"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.6V-FP8",
+    "title": "GLM-4.6V",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.6V",
+    "json": "/zai-org/GLM-4.6V-FP8.json",
+    "derived_from": "zai-org/GLM-4.6V"
+  },
+  {
+    "hf_id": "zai-org/GLM-4.7-FP8",
+    "title": "GLM-4.7",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.7",
+    "json": "/zai-org/GLM-4.7-FP8.json",
+    "derived_from": "zai-org/GLM-4.7"
+  },
+  {
+    "hf_id": "nvidia/GLM-4.7-NVFP4",
+    "title": "GLM-4.7",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-4.7",
+    "json": "/nvidia/GLM-4.7-NVFP4.json",
+    "derived_from": "zai-org/GLM-4.7"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.1-FP8",
+    "title": "GLM-5.1",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.1",
+    "json": "/zai-org/GLM-5.1-FP8.json",
+    "derived_from": "zai-org/GLM-5.1"
+  },
+  {
+    "hf_id": "nvidia/GLM-5.1-NVFP4",
+    "title": "GLM-5.1",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.1",
+    "json": "/nvidia/GLM-5.1-NVFP4.json",
+    "derived_from": "zai-org/GLM-5.1"
+  },
+  {
+    "hf_id": "amd/GLM-5.1-MXFP4",
+    "title": "GLM-5.1",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.1",
+    "json": "/amd/GLM-5.1-MXFP4.json",
+    "derived_from": "zai-org/GLM-5.1"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.2-FP8",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/zai-org/GLM-5.2-FP8.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "amd/GLM-5.2-MXFP4",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/amd/GLM-5.2-MXFP4.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "nvidia/GLM-5.2-NVFP4",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/nvidia/GLM-5.2-NVFP4.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-5.2-NVFP4-FP8",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/RedHatAI/GLM-5.2-NVFP4-FP8.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-5.2-FP8",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/RedHatAI/GLM-5.2-FP8.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-5.2-NVFP4",
+    "title": "GLM-5.2",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.2",
+    "json": "/RedHatAI/GLM-5.2-NVFP4.json",
+    "derived_from": "zai-org/GLM-5.2"
+  },
+  {
+    "hf_id": "RedHatAI/GLM-5.3-Flash-NVFP4",
+    "title": "GLM-5.3-Flash",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3-Flash",
+    "json": "/RedHatAI/GLM-5.3-Flash-NVFP4.json",
+    "derived_from": "zai-org/GLM-5.3-Flash"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.3-Flash-BF16",
+    "title": "GLM-5.3-Flash",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3-Flash",
+    "json": "/zai-org/GLM-5.3-Flash-BF16.json",
+    "derived_from": "zai-org/GLM-5.3-Flash"
+  },
+  {
+    "hf_id": "Inferact/GLM-5.3-NVFP4",
+    "title": "GLM-5.3",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3",
+    "json": "/Inferact/GLM-5.3-NVFP4.json",
+    "derived_from": "zai-org/GLM-5.3"
+  },
+  {
+    "hf_id": "gpustack/GLM-5.3-W4A8",
+    "title": "GLM-5.3",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3",
+    "json": "/gpustack/GLM-5.3-W4A8.json",
+    "derived_from": "zai-org/GLM-5.3"
+  },
+  {
+    "hf_id": "zai-org/GLM-5.3-BF16",
+    "title": "GLM-5.3",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5.3",
+    "json": "/zai-org/GLM-5.3-BF16.json",
+    "derived_from": "zai-org/GLM-5.3"
+  },
+  {
+    "hf_id": "zai-org/GLM-5-FP8",
+    "title": "GLM-5",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5",
+    "json": "/zai-org/GLM-5-FP8.json",
+    "derived_from": "zai-org/GLM-5"
+  },
+  {
+    "hf_id": "nvidia/GLM-5-NVFP4",
+    "title": "GLM-5",
+    "provider": "GLM (Z-AI)",
+    "url": "/zai-org/GLM-5",
+    "json": "/nvidia/GLM-5-NVFP4.json",
+    "derived_from": "zai-org/GLM-5"
+  }
+]
