@@ -1,6 +1,6 @@
 # Fitcheck · vLLM compatibility planner
 
-A dependency-free static website for planning single-GPU vLLM deployments. Defaults to g6.2xlarge (8 vCPU, 32 GiB RAM, NVIDIA L4), with an editable 12 GiB measured baseline RAM assumption.
+A dependency-free static website for planning single-GPU vLLM deployments. Hardware presets use AWS's published host-memory and per-GPU memory specifications. The advanced planner starts with the current documented vLLM `--gpu-memory-utilization` default of 0.92. The planner uses AWS hardware specifications, vLLM documented defaults, and clearly scoped field measurements for starting values. Host baseline, checkpoint staging, GPU runtime overhead, and safety cushions remain editable because they vary with model, loader, context, and deployment.
 
 ## Run
 
@@ -21,9 +21,11 @@ Requires Python 3, curl, and Node for checks. Refresh fetches the public https:/
 
 ## Interpretation
 
-Host RAM and GPU VRAM are separate. A 12 GB Docker image is disk usage, not evidence of 12 GB resident RAM. Enter a measured baseline excluding model loading; otherwise you may double count. Host loading peaks are loader/version dependent: this planner uses a configurable heuristic, not a guaranteed bound. All results require real startup and workload validation.
+Host RAM and GPU VRAM are separate. A 12 GB Docker image is disk usage, not evidence of 12 GB resident RAM. Apple Silicon unified-memory observations do not map directly to either EC2 host RAM or NVIDIA VRAM. The deployment planner starts with about 3 GiB for the combined idle OS + service baseline, rounded from a SageMaker g6e.xlarge field report; that is one managed multimodal setup, not a bare-EC2 guarantee. Startup staging defaults to estimated checkpoint weight size as a conservative eager/prefetch envelope. For a 12–13 GiB checkpoint, that gives a rough 15–16 GiB host startup footprint on a 32 GiB g6.2xlarge (3 GiB baseline + checkpoint-sized envelope). vLLM uses lazy Safetensors memory mapping by default for local storage, so actual resident host RAM can be lower. All results require startup and workload validation.
 
-Weights use total parameters, including all experts where applicable. GPU estimate includes weights, full-context FP16 KV cache across concurrent sequences, and configurable runtime overhead. CPU offload is disabled. Candidate commands use eager mode to reduce CUDA graph overhead; performance may differ. GPU memory uses GiB, with 22.35 as a conservative usable L4 default; replace with your observed nvidia-smi total. 4-bit is only a planning scenario and never generates a launch command for unquantized weights.
+Weights use total parameters, including all experts where applicable. GPU estimate includes weights, full-context FP16 KV cache across concurrent sequences, and configurable runtime overhead. CPU offload is disabled. Candidate commands use eager mode to reduce CUDA graph overhead; performance may differ. The AWS accelerated-instance table lists 22 GiB for the G6 L4, 44 GiB for the G6e L40S and 96 GiB for the G7e RTX PRO Server 6000; replace the preset with the launched instance's `nvidia-smi` total. The current vLLM serve CLI reference lists 0.92 as the default `--gpu-memory-utilization`; check the docs for the installed version. On a 22 GiB L4 that is a 20.24 GiB executor budget. If weights are 12–13 GiB, roughly 7.2–8.2 GiB remains for activations, runtime allocations, and KV cache; an observed 8B L4 profile used about 1.38 GiB for non-weight overhead, leaving roughly 5.8–6.8 GiB for KV in this estimate. The 4 GiB screen cushion is a project policy. The advanced planner starts with a 2 GiB GPU runtime estimate, rounded above a reported L4 vLLM profile that showed 1.38 GiB combined non-weight overhead for Llama 3.1 8B; this is a model/configuration example, not a universal vLLM requirement. Host and loading defaults are based on a measured managed-service baseline and a checkpoint-size startup envelope. 4-bit is only a planning scenario and never generates a launch command for unquantized weights.
+
+Source references: [AWS accelerated-instance specifications](https://docs.aws.amazon.com/ec2/latest/instancetypes/ac.html), [current vLLM serve CLI](https://docs.vllm.ai/en/latest/cli/serve/), [vLLM loader strategies](https://docs.vllm.ai/en/v0.27.1/api/vllm/config/load/), [L4 Llama 3.1 8B startup-log report](https://redigold.com.my/vllm-max-model-len-exceeds-kv-cache), and [AWS SageMaker host-memory field report](https://medium.com/workable-sre/deploying-multimodal-llms-on-aws-sagemaker-navigating-vllm-cache-and-memory-issues-54acf138cca0). Hardware capacities and the 0.92 CLI default are documented facts; measured memory examples are workload-specific and remain editable.
 
 Origin policy uses a curated original-developer allowlist (Google, Meta, Microsoft, Mistral AI, IBM, Hugging Face), with explicit US/France labels and source model cards. It excludes unknown origins; this is not certification of training-data provenance or all upstream lineage. Review licenses and model dependencies for your policy. Meta models require gated access approval.
 
@@ -39,19 +41,19 @@ No actual GPU execution, throughput benchmark, or automated instance inspection 
 
 Gemma 2/3 use conservative full-attention KV estimates: sliding-window savings are not modeled. Gemma 3 4B/12B/27B estimates include approximate total parameter weights but exclude image activation and processing overhead; use estimates for text-only planning. Gated Google configs may use flagged curated fallbacks.
 
-## Shared-GPU deployment planner
+## Deployment planner calculations
 
-The top panel supports one or two containers with independent model, weight scenario, total context, concurrency, allocation fraction, GPU runtime overhead, host runtime RAM, and extra loading RAM. GPU allocations share a global capacity and explicit safety reserve. Host peak adds either the largest staging allocation (sequential startup) or the sum (parallel startup).
+The active planner configures one dedicated server on one physical GPU. Its calculation helper retains multi-slot support for regression coverage, but the interface does not expose shared-GPU or multi-container planning. Inputs include model, weight scenario, context, concurrency, GPU allocation, runtime overhead, idle host baseline, additional host RAM, and startup staging.
 
 Optional weight, KV/state and total-required-GPU measurements are in GiB. Total-required-GPU overrides replace the computed components; do not enter unused preallocated cache as required workload memory. FP8 and 4-bit scenarios do not assert availability of a compatible quantized checkpoint. Generated commands remain limited to native-weight candidates in the catalog panel.
 
-The top deployment planner and lower catalog explorer are independent scenarios, labeled separately. Runtime RAM defaults to an explicitly unmeasured 3 GiB per server, not the previous unverified 12 GiB. Startup RAM is also a configurable assumption. Save/load uses browser localStorage; JSON export includes inputs, assumptions, provenance and results. No measurements or files are sent to a server.
+The top deployment planner and lower catalog explorer are independent scenarios, labeled separately. The advanced planner starts with a 3 GiB combined idle host baseline (OS + service, rounded from one AWS SageMaker field report), zero extra host reserve, a 2 GiB GPU runtime estimate (rounded above one L4 vLLM profile), and startup staging equal to the selected model’s estimated weight-file size. Staging is a conservative eager/prefetch envelope; replace it with the actual checkpoint file size and loader measurements. These are editable starting values, not guaranteed minimum requirements. Save/load uses browser localStorage; JSON export includes inputs, assumptions, provenance and results. No measurements or files are sent to a server.
 
 Checks: `node scripts/test-planner.mjs` and `node scripts/test-engine.mjs`.
 
-Hardware presets include g6e.2xlarge: 8 vCPUs, 64 GiB host RAM, one NVIDIA L40S marketed as 48 GB. The preset conservatively uses 44 GiB GPU capacity per AWS instance specifications; replace with the actual nvidia-smi total. Presets exist in both the deployment planner and independent catalog explorer. The existing g6.2xlarge remains the default. Shared definitions live in hardware.mjs.
+Hardware presets include g6e.2xlarge: 8 vCPUs, 64 GiB host RAM, one NVIDIA L40S marketed as 48 GB. The AWS table lists 44 GiB GPU capacity; replace it with the actual `nvidia-smi` total. Presets exist in both the deployment planner and independent catalog explorer. The existing g6.2xlarge remains the default. Shared definitions live in hardware.mjs.
 
-G7e.2xlarge is also available: 8 vCPUs, 64 GiB host RAM, one NVIDIA RTX PRO 6000 Blackwell GPU. The GPU capacity default is 96 GiB per the AWS accelerated-instance specifications; override with nvidia-smi. All presets and calculations are for a single physical GPU. Two-container mode shares that GPU; tensor parallelism and multi-GPU aggregation are not supported. Hardware memory fit does not establish CUDA/vLLM/kernel compatibility on Blackwell.
+G7e.2xlarge is also available: 8 vCPUs, 64 GiB host RAM, one NVIDIA RTX PRO Server 6000 GPU. The GPU capacity default is 96 GiB per the AWS accelerated-instance specifications; override with `nvidia-smi`. All presets and calculations are for a single physical GPU. Hardware memory fit does not establish CUDA/vLLM/kernel compatibility on Blackwell.
 
 ## Costs
 
@@ -59,13 +61,13 @@ Exactly three hardware presets are exposed: g6.2xlarge, g6e.2xlarge and g7e.2xla
 
 ## Current deployment scope
 
-The UI now supports exactly one dedicated vLLM container on one physical GPU. Earlier shared-GPU/two-container controls and startup scheduling have been removed. The allocation defaults to 90% of GPU capacity. Concurrency refers to requests served by the same vLLM server. The three EC2 presets and USD monthly cost comparison remain. The internal calculation helper retains multi-slot tests as regression coverage, but the UI constructs exactly one deployment slot.
+The UI supports one dedicated vLLM container on one physical GPU. The deployment planner starts at 92% GPU memory utilization, matching the current vLLM CLI documentation; check the version used for deployment. Concurrency refers to requests served by the same vLLM server. The three EC2 presets and USD monthly cost comparison remain. The internal calculation helper retains multi-slot tests as regression coverage, but the UI constructs exactly one deployment slot.
 
 Updated user-provided monthly USD defaults: g6.2xlarge $900; g6e.2xlarge $1,800; g7e.2xlarge $2,600. Annualized totals are $10,800, $21,600 and $31,200. All are editable reference costs, not live AWS quotes.
 
 ## Main results-first comparison
 
-The main page automatically evaluates every catalog model for each of the three GPUs at 65,536 / 98,304 / 131,072 total tokens per request. No model selection is needed. Tables sort by model size and show integer simultaneous full-length request capacity, GPU memory and exclusion reasons. Defaults: native BF16 weights, FP16 full-attention KV, 85% GPU budget, 3 GiB runtime overhead, 15% KV margin, and host peak of one full native weight copy plus 5 GiB. These are conservative scenario assumptions, not measured safe-serving guarantees or throughput estimates. Architecture fallbacks are flagged and hybrid/multimodal models need profiling. Quantized scenarios remain advanced and do not appear as validated baseline fits. Test with `node scripts/test-capacity.mjs`.
+The main page automatically evaluates every catalog model for each of the three GPUs at 65,536 / 98,304 / 131,072 total tokens per request. No model selection is needed. Tables sort by model size and show integer simultaneous full-length request capacity, GPU memory and exclusion reasons. Defaults: native BF16 weights, FP16 full-attention KV, 85% GPU budget, 3 GiB runtime overhead, 15% KV margin, and host peak of one full native weight-file staging envelope plus about 3 GiB of idle host baseline (OS + service, from one SageMaker field report). These are conservative scenario assumptions, not measured safe-serving guarantees or throughput estimates. Architecture fallbacks are flagged and hybrid/multimodal models need profiling. Quantized scenarios remain advanced and do not appear as validated baseline fits. Test with `node scripts/test-capacity.mjs`.
 
 ## Full recipe import
 
