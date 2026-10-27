@@ -1,8 +1,8 @@
 {
   "source": "https://artificialanalysis.ai/leaderboards/models",
-  "updated": "2026-10-23T14:02:28.417537+00:00",
-  "captureDate": "2026-10-23",
-  "captureMethod": "Public server-rendered leaderboard table, one-time snapshot",
+  "updated": "2026-10-27T16:56:26.173269+00:00",
+  "captureDate": "2026-10-27",
+  "captureMethod": "Public server-rendered leaderboard table snapshot",
   "indexVersion": "Artificial Analysis Intelligence Index v4.3.2",
   "scores": {
     "google/diffusiongemma-26b-a4b-it": {
@@ -353,6 +353,42 @@
       "url": "https://artificialanalysis.ai/models/lfm2-5-vl-1-6b",
       "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
     },
+    "meta-models/muse-glimmer-30b": {
+      "aaId": null,
+      "name": "Muse Glimmer (high)",
+      "slug": "muse-glimmer",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/muse-glimmer",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/muse-glimmer-30b-fp8-block": {
+      "aaId": null,
+      "name": "Muse Glimmer (high)",
+      "slug": "muse-glimmer",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/muse-glimmer",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "microsoft/phi-4-mini-instruct": {
+      "aaId": null,
+      "name": "Phi-4 Mini",
+      "slug": "phi-4-mini",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/phi-4-mini",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
     "microsoft/phi-4-multimodal-instruct": {
       "aaId": null,
       "name": "Phi-4 Multimodal",
@@ -363,6 +399,18 @@
       },
       "estimated": true,
       "url": "https://artificialanalysis.ai/models/phi-4-multimodal",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "redhatai/phi-4-mini-instruct-fp8-dynamic": {
+      "aaId": null,
+      "name": "Phi-4 Mini",
+      "slug": "phi-4-mini",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/phi-4-mini",
       "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
     },
     "mistralai/ministral-3-14b-instruct-2512": {
@@ -437,6 +485,30 @@
       "url": "https://artificialanalysis.ai/models/ministral-3-14b",
       "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
     },
+    "nvidia/nvidia-nemotron-3-nano-30b-a3b-bf16": {
+      "aaId": null,
+      "name": "Nemotron 3 Nano",
+      "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    "nvidia/nvidia-nemotron-3-nano-30b-a3b-fp8": {
+      "aaId": null,
+      "name": "Nemotron 3 Nano",
+      "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
     "openai/gpt-oss-20b": {
       "aaId": null,
       "name": "gpt-oss-20b (high)",
@@ -450,7 +522,7 @@
       "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
     }
   },
-  "status": "One-time public snapshot: 15 AA model identities mapped to 37 checkpoint records.",
+  "status": "Public leaderboard snapshot: 18 AA model identities mapped to 43 checkpoint records.",
   "references": [
     {
       "aaId": null,
@@ -574,6 +646,30 @@
     },
     {
       "aaId": null,
+      "name": "Muse Glimmer (high)",
+      "slug": "muse-glimmer",
+      "scope": "base",
+      "indices": {
+        "intelligence": 17.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/muse-glimmer",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Phi-4 Mini",
+      "slug": "phi-4-mini",
+      "scope": "base",
+      "indices": {
+        "intelligence": 6.0
+      },
+      "estimated": true,
+      "url": "https://artificialanalysis.ai/models/phi-4-mini",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
       "name": "Phi-4 Multimodal",
       "slug": "phi-4-multimodal",
       "scope": "base",
@@ -618,6 +714,18 @@
       },
       "estimated": false,
       "url": "https://artificialanalysis.ai/models/ministral-3-3b",
+      "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
+    },
+    {
+      "aaId": null,
+      "name": "Nemotron 3 Nano",
+      "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
+      "scope": "base",
+      "indices": {
+        "intelligence": 9.0
+      },
+      "estimated": false,
+      "url": "https://artificialanalysis.ai/models/nvidia-nemotron-3-nano-30b-a3b-reasoning",
       "note": "Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation."
     },
     {

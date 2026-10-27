@@ -2367,6 +2367,14 @@
     "derived_from": "Qwen/Qwen3.8-Flash-Next"
   },
   {
+    "hf_id": "amd/Qwen3.8-Flash-Next-Quark-MXFP4",
+    "title": "Qwen3.8-Flash-Next",
+    "provider": "Qwen",
+    "url": "/Qwen/Qwen3.8-Flash-Next",
+    "json": "/amd/Qwen3.8-Flash-Next-Quark-MXFP4.json",
+    "derived_from": "Qwen/Qwen3.8-Flash-Next"
+  },
+  {
     "hf_id": "Qwen/Qwen3Guard-Gen-4B",
     "title": "Qwen3Guard-Gen-8B",
     "provider": "Qwen",

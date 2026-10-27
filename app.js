@@ -1,14 +1,16 @@
+import {latestModelFilter} from './latest-models.mjs';
+import {under50,isTextGeneration} from './catalog-policy.mjs';
 import {hardware} from './hardware.mjs';
 import {estimate} from './engine.mjs';
 const $=id=>document.getElementById(id), ids=['cpu','ram','vram','base','os','util','context','seq','precision','overhead','loading'];
 const defaults=Object.fromEntries(ids.map(id=>[id,$(id).value]));
-let data,recipes,selected='meta-llama/Llama-3.2-3B-Instruct';
+let data,recipes,latest,selected='meta-llama/Llama-3.2-3B-Instruct';
 const fmt=n=>n.toFixed(1), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={candidate:'Memory candidate',risk:'Host RAM risk',no:'Does not fit'};
 function render(){
  if(ids.some(id=>!$(id).checkValidity()||!$(id).value)){ $('advice').textContent='Enter valid values in every configuration field.';return; }
  const c=Object.fromEntries(ids.map(id=>[id,Number($(id).value)]));
- const rows=data.models.filter(m=>m.params<50).map(m=>({...m,...estimate(m,c)}));
+ const rows=data.models.filter(m=>m.params<50&&latest(m)).map(m=>({...m,...estimate(m,c)}));
  $('gpuStat').textContent=fmt(c.vram*c.util)+' GiB';$('ramStat').textContent=fmt(c.ram-c.base-c.os)+' GiB';$('fitStat').textContent=rows.filter(m=>m.status==='candidate').length+' / '+rows.length;
  $('advice').textContent=`${fmt(c.ram-c.base-c.os)} GiB remains after the idle host baseline and optional reserve. Startup staging can approach the checkpoint file size with eager loading or prefetch. ${c.cpu<=4?'With '+c.cpu+' vCPUs, start with one request at a time. ':''}GPU fit alone does not guarantee a successful launch.`;
  const shown=rows.filter(m=>(m.name+' '+m.provider).toLowerCase().includes($('search').value.toLowerCase())&&($('status').value==='all'||m.status===$('status').value));
@@ -21,10 +23,11 @@ function render(){
  if($('copy'))$('copy').onclick=async()=>{try{await navigator.clipboard.writeText(cmd);$('copy').textContent='Copied'}catch{$('copy').textContent='Select and copy the command above'}};
 }
 try{
- [data,recipes]=await Promise.all(['data/models.json','data/recipes.json'].map(p=>fetch(p).then(r=>{if(!r.ok)throw Error(p);return r.json()})));
+ let catalog; [data,recipes,catalog]=await Promise.all(['data/models.json','data/recipes.json','data/catalog.json'].map(p=>fetch(p).then(r=>{if(!r.ok)throw Error(p);return r.json()})));
+ latest=latestModelFilter([...catalog.variants.filter(under50),...data.models.filter(m=>m.params<50)]);
  $('sync').textContent=`Snapshot: ${new Date(data.updated).toLocaleDateString()}. ${recipes.length} upstream recipes. ${data.models.length} curated model estimates. Refresh with python3 scripts/sync_data.py.`;
  const allowed=new Set(['meta-llama','microsoft','mistralai','Google','google','HuggingFaceTB','ibm-granite']);
- const reviewed=recipes.filter(r=>allowed.has(r.hf_id.split('/')[0]));
+ const reviewed=recipes.filter(r=>allowed.has(r.hf_id.split('/')[0])&&latest(r));
  $('recipes').innerHTML=reviewed.map(r=>`<a target="_blank" rel="noreferrer" href="https://recipes.vllm.ai${encodeURI(r.url)}">${esc(r.title)} · recipe only, not assessed ↗</a>`).join('');
  ids.forEach(id=>$(id).addEventListener('input',render));['search','status'].forEach(id=>$(id).addEventListener('input',render));
  $('instance').onchange=()=>{const p=hardware[$('instance').value];if(p){$('cpu').value=p.cpu;$('ram').value=p.ram;$('vram').value=p.vram}render()};

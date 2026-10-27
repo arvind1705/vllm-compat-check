@@ -29,6 +29,9 @@ rules={
  'diffusiongemma-26b-a4b-it':'DiffusionGemma 26B A4B',
  'lfm2.5-8b-a1b':'LFM2.5-8B-A1B','lfm2.5-1.2b-instruct':'LFM2.5-1.2B-Instruct',
  'lfm2.5-1.2b-thinking':'LFM2.5-1.2B-Thinking','lfm2.5-vl-1.6b':'LFM2.5-VL-1.6B',
+ 'nvidia-nemotron-3-nano-30b-a3b':'Nemotron 3 Nano',
+ 'phi-4-mini-instruct':'Phi-4 Mini',
+ 'muse-glimmer-30b':'Muse Glimmer (high)',
  'phi-4':'Phi-4','phi-4-multimodal-instruct':'Phi-4 Multimodal',
  'gpt-oss-20b':'gpt-oss-20b (high)',
 }
@@ -46,7 +49,7 @@ for entry in catalog['variants']:
  row,link=rows[aaName];score=float(row[3].replace('*','').strip())
  rec=dict(aaId=None,name=aaName,slug=(link or '').split('/')[-1],scope='base',indices={'intelligence':score},estimated='*' in row[3],url='https://artificialanalysis.ai'+link if link else 'https://artificialanalysis.ai/leaderboards/models',note='Public rounded leaderboard value; base-model reference, not a quantization-specific evaluation.')
  scores[checkpoint.lower()]=rec;unique[aaName]=rec
-out=dict(source='https://artificialanalysis.ai/leaderboards/models',updated=datetime.datetime.now(datetime.timezone.utc).isoformat(),captureDate='2026-10-23',captureMethod='Public server-rendered leaderboard table, one-time snapshot',indexVersion='Artificial Analysis Intelligence Index v4.3.2',scores=scores,status=f'One-time public snapshot: {len(unique)} AA model identities mapped to {len(scores)} checkpoint records.',references=list(unique.values()))
+out=dict(source='https://artificialanalysis.ai/leaderboards/models',updated=datetime.datetime.now(datetime.timezone.utc).isoformat(),captureDate=datetime.datetime.now(datetime.timezone.utc).date().isoformat(),captureMethod='Public server-rendered leaderboard table snapshot',indexVersion='Artificial Analysis Intelligence Index v4.3.2',scores=scores,status=f'Public leaderboard snapshot: {len(unique)} AA model identities mapped to {len(scores)} checkpoint records.',references=list(unique.values()))
 if not scores:sys.exit('No explicit matches found; existing score snapshot left unchanged.')
 (ROOT/'data/aa-scores.json').write_text(json.dumps(out,indent=2)+'\n')
 print(out['status']);print('\n'.join(unique))

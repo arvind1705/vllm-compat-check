@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {latestModelFilter} from '../latest-models.mjs';
+import {under50,isTextGeneration} from '../catalog-policy.mjs';
+const catalog=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url)));
+const curated=JSON.parse(readFileSync(new URL('../data/models.json',import.meta.url)));
+const latest=latestModelFilter([...catalog.variants.filter(under50),...curated.models.filter(m=>m.params<50)]);
+for(const id of ['meta-llama/Llama-3.1-8B-Instruct','google/gemma-3-4b-it','ibm-granite/granite-3.2-2b-instruct','microsoft/Phi-3.5-mini-instruct','HuggingFaceTB/SmolLM2-1.7B-Instruct','mistralai/Ministral-8B-Instruct-2410']) assert.equal(latest({id}),false,id);
+for(const id of ['meta-llama/Llama-3.2-3B-Instruct','meta-llama/Llama-3.2-1B-Instruct','RedHatAI/gemma-4-12B-it-FP8-dynamic','ibm-granite/granite-3.3-2b-instruct','microsoft/Phi-4-mini-instruct','HuggingFaceTB/SmolLM3-3B','mistralai/Ministral-3-3B-Instruct-2512','google/translategemma-27b-it']) assert.equal(latest({id}),true,id);
+const same=latestModelFilter([{id:'meta-llama/Llama-3.1-8B'},{id:'meta-llama/Llama-3.2-1B'},{id:'meta-llama/Llama-3.2-3B'}]);
+assert.equal(same({id:'meta-llama/Llama-3.1-8B'}),false);assert.equal(same({id:'meta-llama/Llama-3.2-1B'}),true);
+console.log('Latest family versions, quantized checkpoints, model sizes and unknown families passed');

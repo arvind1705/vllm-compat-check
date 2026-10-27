@@ -8,6 +8,7 @@ allowed={'Meta','Google','Mistral AI','Microsoft','OpenAI','LiquidAI','Poolside'
 def policy(provider,ids):
  low=' '.join(ids).lower()
  if provider in china or any(x in low for x in ['qwen','deepseek','minimax','glm-','kimi-','hunyuan','internlm','internvl','flux-3-image-klein']):return 'excluded','Chinese original model or checkpoint lineage'
+ if provider == 'NVIDIA' and all('nvidia/nvidia-nemotron-3-nano-30b-a3b' in x.lower() for x in ids):return 'included','NVIDIA-developed Nemotron 3 Nano; model card reports improvement using Qwen'
  if provider in allowed:return 'included','Original developer allowlist; checkpoint ID screened for Chinese lineage'
  return 'review','Original lineage needs review; publisher alone is insufficient'
 index=fetch('https://recipes.vllm.ai/models.json')

@@ -1,5 +1,5 @@
 export const contexts=[65536,98304,131072];
-export function capacity(model,hw,{util=.85,overhead=3,kvMargin=.15,bytes=2}={}){
+export function capacity(model,hw,{util=.85,overhead=4.1,kvMargin=.15,bytes=2}={}){
  const weights=model.params*1e9*bytes/2**30;
  const budget=hw.vram*util;
  const hostPeak=3+weights; // Measured idle host baseline example + full checkpoint-size staging envelope.
