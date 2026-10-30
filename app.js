@@ -31,5 +31,5 @@ try{
  $('recipes').innerHTML=reviewed.map(r=>`<a target="_blank" rel="noreferrer" href="https://recipes.vllm.ai${encodeURI(r.url)}">${esc(r.title)} · recipe only, not assessed ↗</a>`).join('');
  ids.forEach(id=>$(id).addEventListener('input',render));['search','status'].forEach(id=>$(id).addEventListener('input',render));
  $('instance').onchange=()=>{const p=hardware[$('instance').value];if(p){$('cpu').value=p.cpu;$('ram').value=p.ram;$('vram').value=p.vram}render()};
- $('reset').onclick=()=>{ids.forEach(id=>$(id).value=defaults[id]);$('instance').value='g6.2xlarge';$('search').value='';$('status').value='all';render()};render();
+ $('reset').onclick=()=>{ids.forEach(id=>$(id).value=defaults[id]);$('instance').value='g6e.2xlarge';$('search').value='';$('status').value='all';render()};render();
 }catch(e){$('models').textContent='Could not load model data. Serve this folder over HTTP and run the data sync script if needed.';console.error(e)}

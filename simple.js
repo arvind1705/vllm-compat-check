@@ -14,7 +14,7 @@ try{
   const effectiveScores={...aa.scores};
   for(const [key,value] of Object.entries(manual))effectiveScores[key]={scope:'manual',name:value.note||'User-entered score',indices:{intelligence:value.score},updated:value.updated};
   const openLists=[...document.querySelectorAll('#recommendations .candidate-list')].map(el=>el.open);
-  document.getElementById('recommendations').innerHTML=Object.entries(hardware).map(([id,hw])=>{
+  document.getElementById('recommendations').innerHTML=[...Object.entries(hardware)].sort(([a],[b])=>a==='g6e.2xlarge'?-1:b==='g6e.2xlarge'?1:0).map(([id,hw])=>{
    const rows=recommendations(catalog.variants,curated.models,effectiveScores,hw,ctx);
    const scored=rows.filter(x=>x.score);const best=scored[0];const sorted=sortRecommendations(rows,document.getElementById('sortChoice').value);
    const scoreText=s=>s?.scope==='manual'?`<span>${Number(s.indices.intelligence).toFixed(1)} <small>Manual</small></span>`:s?`<a href="${esc(s.url)}" target="_blank" rel="noreferrer" title="${esc(s.name)} · base-model reference">${Number(s.indices.intelligence).toFixed(1)}${s.estimated?'*':''}</a>`:'Not scored';
